@@ -1,0 +1,170 @@
+import React, { useMemo, useState } from "react";
+
+// === ご主人が触るのはここだけ =========================
+const PROFILE = {
+  displayName: "LuNova Creater",
+  tagline: "小さく作って早く出す。",
+  bio: "個人開発で小さな便利を量産中。Xとnoteで開発ログと学びを発信しています。",
+  links: {
+    x: "https://x.com/@Lunova_create",
+    note: "https://note.com/luna-create",
+    github: "https://github.com/lunovamainkaihatsu-coder",
+  },
+};
+
+const APPS = [
+  {
+    id: "app-1",
+    name: "タスク秒殺",
+    tagline: "1分で終わるタスク管理",
+    description: "ブラウザだけで動く極薄ToDo。ショートカット重視。",
+    url: "https://todaystepapp-nxvxp7ztx4bkjtogrducv3.streamlit.app/",
+    repo: "",
+    tags: ["Web", "Productivity"],
+    status: "公開中",
+    updatedAt: "2025-11-15",
+  },
+];
+
+const POSTS = [
+  {
+    id: "note-1",
+    title: "今日の一歩アプリ：APIなし版",
+    date: "2025-11-15",
+    url: "https://note.com/your_id/n/xxxxxxxx",
+    tags: ["DevLog", "Design"],
+  },
+];
+// =====================================================
+
+export default function AppPortfolio() {
+  const [q, setQ] = useState("");
+  const [tag, setTag] = useState("All");
+  const tags = useMemo(() => ["All", ...Array.from(new Set(APPS.flatMap(a => a.tags)))], []);
+
+  const filtered = useMemo(() => {
+    return APPS.filter(a => {
+      const hitQ = [a.name, a.tagline, a.description, a.tags.join(" ")].join(" ").toLowerCase().includes(q.toLowerCase());
+      const hitTag = tag === "All" || a.tags.includes(tag);
+      return hitQ && hitTag;
+    }).sort((a, b) => (b.updatedAt || "").localeCompare(a.updatedAt || ""));
+  }, [q, tag]);
+
+  return (
+    <div className="min-h-screen bg-neutral-50 text-neutral-900">
+      <header className="sticky top-0 z-10 backdrop-blur bg-white/70 border-b border-neutral-200">
+        <div className="max-w-5xl mx-auto px-4 py-3 flex items-center gap-3">
+          <div className="size-9 rounded-2xl bg-black text-white grid place-items-center font-bold">A</div>
+          <div className="flex-1">
+            <h1 className="text-lg font-semibold leading-tight">{PROFILE.displayName}</h1>
+            <p className="text-xs text-neutral-500">{PROFILE.tagline}</p>
+          </div>
+          <nav className="flex items-center gap-2 text-sm">
+            <a className="px-3 py-1.5 rounded-full border hover:bg-neutral-100" href="#apps">Apps</a>
+            <a className="px-3 py-1.5 rounded-full border hover:bg-neutral-100" href="#blog">Blog</a>
+            <a className="px-3 py-1.5 rounded-full border hover:bg-neutral-100" href={PROFILE.links.x} target="_blank" rel="noreferrer">X</a>
+            <a className="px-3 py-1.5 rounded-full border hover:bg-neutral-100" href={PROFILE.links.note} target="_blank" rel="noreferrer">note</a>
+            <a className="px-3 py-1.5 rounded-full border hover:bg-neutral-100" href={PROFILE.links.github} target="_blank" rel="noreferrer">GitHub</a>
+          </nav>
+        </div>
+      </header>
+
+      <main className="max-w-5xl mx-auto px-4 py-8">
+        {/* Hero */}
+        <section className="mb-8">
+          <h2 className="text-2xl md:text-3xl font-bold mb-2">小さく作って、早く出す。</h2>
+          <p className="text-neutral-600 max-w-2xl">{PROFILE.bio}</p>
+        </section>
+
+        {/* Apps */}
+        <section id="apps" className="mb-10">
+          <div className="mb-4 flex flex-col md:flex-row gap-3 md:items-center">
+            <h3 className="text-xl font-semibold">Apps</h3>
+            <div className="flex-1" />
+            <div className="flex-1">
+              <input
+                value={q}
+                onChange={(e) => setQ(e.target.value)}
+                placeholder="検索：アプリ名・説明・タグ"
+                className="w-full px-4 py-2.5 rounded-xl border focus:outline-none focus:ring-2 focus:ring-neutral-300"
+              />
+            </div>
+            <div className="flex gap-2 overflow-x-auto">
+              {tags.map(t => (
+                <button
+                  key={t}
+                  onClick={() => setTag(t)}
+                  className={`px-3 py-2 rounded-xl border text-sm whitespace-nowrap ${tag === t ? "bg-black text-white" : "hover:bg-neutral-100"}`}
+                >{t}</button>
+              ))}
+            </div>
+          </div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {filtered.map(app => (
+              <article key={app.id} className="rounded-2xl border bg-white p-4 hover:shadow-md transition">
+                <div className="flex items-start justify-between gap-3 mb-2">
+                  <h4 className="text-lg font-semibold leading-tight">{app.name}</h4>
+                  <span className="text-xs px-2 py-1 rounded-full border bg-neutral-50">{app.status}</span>
+                </div>
+                <p className="text-sm text-neutral-600 mb-2">{app.tagline}</p>
+                <p className="text-sm text-neutral-700 line-clamp-3 mb-3">{app.description}</p>
+                <div className="flex flex-wrap gap-1 mb-4">
+                  {app.tags.map(t => (
+                    <span key={t} className="text-xs px-2 py-1 rounded-full bg-neutral-100">#{t}</span>
+                  ))}
+                </div>
+                <div className="flex items-center gap-2 text-sm">
+                  <a className="px-3 py-2 rounded-xl border hover:bg-neutral-100" href={app.url} target="_blank" rel="noreferrer">使ってみる</a>
+                  <a className="px-3 py-2 rounded-xl border hover:bg-neutral-100" href={app.repo} target="_blank" rel="noreferrer">ソース</a>
+                </div>
+                <div className="mt-3 text-xs text-neutral-400">更新日：{app.updatedAt}</div>
+              </article>
+            ))}
+            {filtered.length === 0 && (
+              <div className="col-span-full text-center text-neutral-500 border rounded-2xl p-10">
+                条件に合うアプリが見つかりませんでした。
+              </div>
+            )}
+          </div>
+        </section>
+
+        {/* Blog (note看板) */}
+        <section id="blog" className="mb-10">
+          <div className="mb-4 flex items-center justify-between">
+            <h3 className="text-xl font-semibold">Blog（note）</h3>
+            <a className="text-sm underline" href={PROFILE.links.note} target="_blank" rel="noreferrer">すべて見る →</a>
+          </div>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {POSTS.map(p => (
+              <article key={p.id} className="rounded-2xl border bg-white p-4 hover:shadow-md transition">
+                <h4 className="font-semibold leading-snug mb-1 line-clamp-3">{p.title}</h4>
+                <div className="text-xs text-neutral-500 mb-3">{p.date} ・ {p.tags.map(t => `#${t}`).join(" ")}</div>
+                <a className="px-3 py-2 rounded-xl border hover:bg-neutral-100 text-sm inline-flex" href={p.url} target="_blank" rel="noreferrer">noteで読む</a>
+              </article>
+            ))}
+            {POSTS.length === 0 && (
+              <div className="col-span-full text-center text-neutral-500 border rounded-2xl p-10">
+                まだ記事がありません。noteで公開したらここに1行追加してください。
+              </div>
+            )}
+          </div>
+        </section>
+
+        {/* CTA */}
+        <section className="mt-10 border rounded-2xl p-6 bg-gradient-to-br from-neutral-50 to-white">
+          <h3 className="text-xl font-semibold mb-2">最新情報はXとnoteで</h3>
+          <p className="text-neutral-600 mb-4">開発ログ、学び、失敗談をリアルタイムで発信中。フォロー&スキが励みになります。</p>
+          <div className="flex gap-2">
+            <a className="px-4 py-2 rounded-xl border hover:bg-neutral-100" href={PROFILE.links.x} target="_blank" rel="noreferrer">Xをフォロー</a>
+            <a className="px-4 py-2 rounded-xl border hover:bg-neutral-100" href={PROFILE.links.note} target="_blank" rel="noreferrer">noteを読む</a>
+          </div>
+        </section>
+      </main>
+
+      <footer className="max-w-5xl mx-auto px-4 py-10 text-xs text-neutral-500">
+        © {new Date().getFullYear()} {PROFILE.displayName}
+      </footer>
+    </div>
+  );
+}
