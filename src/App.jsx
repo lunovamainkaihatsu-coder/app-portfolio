@@ -7,7 +7,7 @@ const PROFILE = {
   bio: "個人開発で小さな便利を量産中。Xとnoteで開発ログと学びを発信しています。",
   links: {
     x: "https://x.com/@Lunova_create",
-    note: "https://note.com/luna-create",
+    note: "https://note.com/lunova_create",
     github: "https://github.com/lunovamainkaihatsu-coder",
   },
 };
@@ -31,7 +31,7 @@ const POSTS = [
     id: "note-1",
     title: "今日の一歩アプリ：APIなし版",
     date: "2025-11-15",
-    url: "https://note.com/your_id/n/xxxxxxxx",
+    url: "https://note.com/lunova_create/n/n9e7fee8a1914",
     tags: ["DevLog", "Design"],
   },
 ];
