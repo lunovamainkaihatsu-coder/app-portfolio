@@ -24,6 +24,19 @@ const APPS = [
     status: "公開中",
     updatedAt: "2025-11-15",
   },
+  {
+    id: "app-2",
+    name: "かんたんタロット",
+    tagline: "今日の一枚をサクッと引く。",
+    description: "ワンクリックでタロットを1枚引いて、意味とメッセージを表示する簡易占いアプリ。",
+    // ↓ここを、ご主人のタロットアプリのURLに差し替えてね
+    url: "https://mainitiapp-ebjvjsi52r7ay9in3rky9u.streamlit.app/",
+    repo: "",
+    tags: ["Web", "Fortune", "Tarot"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-11-16",
+  },
 ];
 
 const POSTS = [
@@ -33,6 +46,15 @@ const POSTS = [
     date: "2025-11-15",
     url: "https://note.com/lunova_create/n/n9e7fee8a1914",
     tags: ["DevLog", "Design"],
+  },
+  {
+    id: "note-2",
+    title: "簡易タロット占いアプリを公開しました",
+    // 公開した日
+    date: "2025-11-16",
+    // ↓ここをタロット記事のURLに変える
+    url: "https://note.com/lunova_create/n/nfb2f5371b1ed?app_launch=false",
+    tags: ["DevLog", "Tarot"],
   },
 ];
 // =====================================================
