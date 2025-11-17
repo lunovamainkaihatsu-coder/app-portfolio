@@ -37,6 +37,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-11-16",
   },
+    {
+    id: "app-3",
+    name: "3分学習メーカー",
+    tagline: "やる気が出ない日の三分学習",
+    description: "今日はなんだかやる気が起きない！そんなときにクリックでやることを決めてくれます。",
+    // ↓ここを、ご主人のタロットアプリのURLに差し替えてね
+    url: "https://mainitiapp-mknkxzuyrl6aw4d5pxsbcc.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-11-17",
+  },
 ];
 
 const POSTS = [
@@ -55,6 +68,15 @@ const POSTS = [
     // ↓ここをタロット記事のURLに変える
     url: "https://note.com/lunova_create/n/nfb2f5371b1ed?app_launch=false",
     tags: ["DevLog", "Tarot"],
+  },
+  {
+    id: "note-3",
+    title: "３分学習メーカーを公開しました",
+    // 公開した日
+    date: "2025-11-17",
+    // ↓ここをタロット記事のURLに変える
+    url: "https://note.com/lunova_create/n/neb4ecddaba0b?app_launch=false",
+    tags: ["DevLog"],
   },
 ];
 // =====================================================
