@@ -50,6 +50,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-11-17",
   },
+    {
+    id: "app-4",
+    name: "イラストお題ジェネレーター",
+    tagline: "イラストを描く時の今日のお題",
+    description: "イラストを描きたい！練習したいけど、いっつも同じ構図になっちゃうの対策に！",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-g2mptiofvm6ct7lyq3uzen.streamlit.app/",
+    repo: "",
+    tags: ["Web","Illust"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-11-18",
+  },
 ];
 
 const POSTS = [
@@ -74,9 +87,18 @@ const POSTS = [
     title: "３分学習メーカーを公開しました",
     // 公開した日
     date: "2025-11-17",
-    // ↓ここをタロット記事のURLに変える
+    // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/neb4ecddaba0b?app_launch=false",
     tags: ["DevLog"],
+  },
+  {
+    id: "note-4",
+    title: "イラストお題ジェネレーター",
+    // 公開した日
+    date: "2025-11-18",
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n734ce7d3dcf8?app_launch=false",
+    tags: ["DevLog","Illust"],
   },
 ];
 // =====================================================
