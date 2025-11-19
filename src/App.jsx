@@ -119,7 +119,7 @@ const POSTS = [
     // 公開した日
     date: "2025-11-19", 
     // ↓ここを記事のURLに変える
-    url: "",
+    url: "https://note.com/lunova_create/n/n02b121e10022",
     tags: ["DevLog"],
   },
 ];
