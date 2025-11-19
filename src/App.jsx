@@ -63,6 +63,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-11-18",
   },
+  {
+    id: "app-5",
+    name: "YES/NO迷宮",
+    tagline: "YESとNOでの簡単な性格診断",
+    description: "いきぬき用アプリです",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-8bfg9nf8o8da6asatswtgq.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-11-19",
+  },
 ];
 
 const POSTS = [
@@ -91,14 +104,23 @@ const POSTS = [
     url: "https://note.com/lunova_create/n/neb4ecddaba0b?app_launch=false",
     tags: ["DevLog"],
   },
-  {
+ {
     id: "note-4",
     title: "イラストお題ジェネレーター",
     // 公開した日
-    date: "2025-11-18",
+    date: "2025-11-18", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n734ce7d3dcf8?app_launch=false",
     tags: ["DevLog","Illust"],
+  },
+ {
+    id: "note-5",
+    title: "YESNO迷宮を公開しました。",
+    // 公開した日
+    date: "2025-11-19", 
+    // ↓ここを記事のURLに変える
+    url: "",
+    tags: ["DevLog"],
   },
 ];
 // =====================================================
