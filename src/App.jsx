@@ -76,6 +76,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-11-19",
   },
+    {
+    id: "app-6",
+    name: "AI大喜利アプリ",
+    tagline: "簡易的なAIでの大喜利アプリです",
+    description: "いきぬき用アプリです",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-bh24xlbnylt2hirmjd7ntv.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-11-20",
+  },
 ];
 
 const POSTS = [
@@ -120,6 +133,15 @@ const POSTS = [
     date: "2025-11-19", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n02b121e10022",
+    tags: ["DevLog"],
+  },
+   {
+    id: "note-6",
+    title: "AI大喜利アプリを公開しました。",
+    // 公開した日
+    date: "2025-11-20", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n496bb1e55919",
     tags: ["DevLog"],
   },
 ];
