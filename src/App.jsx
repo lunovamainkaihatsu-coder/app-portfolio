@@ -89,6 +89,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-11-20",
   },
+    {
+    id: "app-7",
+    name: "簡単ご飯メーカー",
+    tagline: "献立をボタン一つで考えてくれるアプリです",
+    description: "簡易的なアプリです",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitigohan-6t3gr5qqvjnrlfbhmtudrj.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-11-20",
+  },
 ];
 
 const POSTS = [
@@ -142,6 +155,15 @@ const POSTS = [
     date: "2025-11-20", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n496bb1e55919",
+    tags: ["DevLog"],
+  },
+   {
+    id: "note-7",
+    title: "AI大喜利アプリを公開しました。",
+    // 公開した日
+    date: "2025-11-20", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nc7046b63d345?app_launch=false",
     tags: ["DevLog"],
   },
 ];
