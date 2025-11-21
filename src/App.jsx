@@ -159,9 +159,9 @@ const POSTS = [
   },
    {
     id: "note-7",
-    title: "AI大喜利アプリを公開しました。",
+    title: "簡単ご飯メーカーを公開しました。",
     // 公開した日
-    date: "2025-11-20", 
+    date: "2025-11-21", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nc7046b63d345?app_launch=false",
     tags: ["DevLog"],
