@@ -100,8 +100,22 @@ const APPS = [
     tags: ["Web"],
     status: "公開中",
     // 今日の日付などに更新
-    updatedAt: "2025-11-20",
+    updatedAt: "2025-11-21",
   },
+      {
+    id: "app-8",
+    name: "一行ポジティブメーカー",
+    tagline: "落ち込んだ時に",
+    description: "簡易的なアプリです",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-8hvmxnfdgk7zgxtb9nrdug.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-11-22",
+  },
+
 ];
 
 const POSTS = [
@@ -164,6 +178,15 @@ const POSTS = [
     date: "2025-11-21", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nc7046b63d345?app_launch=false",
+    tags: ["DevLog"],
+  },
+   {
+    id: "note-8",
+    title: "一行ポジティブメーカーを公開しました。",
+    // 公開した日
+    date: "2025-11-22", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n49c85619ad30?app_launch=false",
     tags: ["DevLog"],
   },
 ];
