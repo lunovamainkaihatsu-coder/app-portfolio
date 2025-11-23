@@ -115,7 +115,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-11-22",
   },
-
+      {
+    id: "app-9",
+    name: "数あてゲーム",
+    tagline: "1から100の間で数をあてるゲームです。",
+    description: "簡易的なアプリです",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://kazuategame-tmx4rurxq9nwmfre3g99ut.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-11-23",
+  },
 ];
 
 const POSTS = [
@@ -187,6 +199,15 @@ const POSTS = [
     date: "2025-11-22", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n49c85619ad30?app_launch=false",
+    tags: ["DevLog"],
+  },
+     {
+    id: "note-9",
+    title: "数あてゲームを公開しました。",
+    // 公開した日
+    date: "2025-11-23", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n181249046a39?app_launch=false",
     tags: ["DevLog"],
   },
 ];
