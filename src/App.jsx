@@ -128,6 +128,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-11-23",
   },
+      {
+    id: "app-10",
+    name: "猫占い的なやつ",
+    tagline: "簡易的な猫占いです。猫の種類じゃないです。謎の猫です。",
+    description: "また占いです。",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://day10nekouranai-lvjudbgcpaf8ctnfpqf3dq.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-11-23",
+  },
 ];
 
 const POSTS = [
@@ -208,6 +221,15 @@ const POSTS = [
     date: "2025-11-23", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n181249046a39?app_launch=false",
+    tags: ["DevLog"],
+  },
+     {
+    id: "note-10",
+    title: "猫占い的なものを公開しました。",
+    // 公開した日
+    date: "2025-11-24", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nd2e69e5e3234",
     tags: ["DevLog"],
   },
 ];
