@@ -139,7 +139,20 @@ const APPS = [
     tags: ["Web"],
     status: "公開中",
     // 今日の日付などに更新
-    updatedAt: "2025-11-23",
+    updatedAt: "2025-11-24",
+  },
+        {
+    id: "app-11",
+    name: "変な文章メーカーを公開しました。",
+    tagline: "単語を入力することで、変な文章を作成する役に立たないツールです",
+    description: "息抜き用です",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://day11hennabunsho-jp4f3spkjypshq6uvch2ev.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-11-25",
   },
 ];
 
@@ -230,6 +243,15 @@ const POSTS = [
     date: "2025-11-24", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nd2e69e5e3234",
+    tags: ["DevLog"],
+  },
+       {
+    id: "note-11",
+    title: "変な文章メーカーを公開しました。",
+    // 公開した日
+    date: "2025-11-25", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n63cecd469778?app_launch=false",
     tags: ["DevLog"],
   },
 ];
