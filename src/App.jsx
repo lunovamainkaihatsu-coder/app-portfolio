@@ -154,6 +154,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-11-25",
   },
+          {
+    id: "app-12",
+    name: "時間割アプリを公開しました。",
+    tagline: "簡単な時間割作成アプリを作りました。",
+    description: "今後より実用的なものを作りたいです",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-ktzef7jg8pxmvtxy493tet.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-11-25",
+  },
 ];
 
 const POSTS = [
@@ -252,6 +265,15 @@ const POSTS = [
     date: "2025-11-25", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n63cecd469778?app_launch=false",
+    tags: ["DevLog"],
+  },
+       {
+    id: "note-12",
+    title: "時間割アプリを公開しました。",
+    // 公開した日
+    date: "2025-11-26", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/ncdf6e0800574?app_launch=false",
     tags: ["DevLog"],
   },
 ];
