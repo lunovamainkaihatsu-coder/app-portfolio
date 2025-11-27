@@ -167,6 +167,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-11-25",
   },
+          {
+    id: "app-13",
+    name: "ランダムヨガアプリを公開しました。",
+    tagline: "ヨガの主なポーズをランダムで出します。",
+    description: "ヨガを続けたいです",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://day13yogaapp-ngkzitxavngp9uzsmrgmej.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-11-25",
+  },
 ];
 
 const POSTS = [
@@ -274,6 +287,15 @@ const POSTS = [
     date: "2025-11-26", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/ncdf6e0800574?app_launch=false",
+    tags: ["DevLog"],
+  },
+       {
+    id: "note-13",
+    title: "ランダムヨガを公開しました。",
+    // 公開した日
+    date: "2025-11-27", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n6911390db91d",
     tags: ["DevLog"],
   },
 ];
