@@ -165,7 +165,7 @@ const APPS = [
     tags: ["Web"],
     status: "公開中",
     // 今日の日付などに更新
-    updatedAt: "2025-11-25",
+    updatedAt: "2025-11-26",
   },
           {
     id: "app-13",
@@ -178,7 +178,20 @@ const APPS = [
     tags: ["Web"],
     status: "公開中",
     // 今日の日付などに更新
-    updatedAt: "2025-11-25",
+    updatedAt: "2025-11-27",
+  },
+            {
+    id: "app-14",
+    name: "中二病風占い",
+    tagline: "少し変わった占いです。",
+    description: "またまた占いです",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://day14chunibyouuranai-gpnecburbftfysxo9ma3i4.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-11-28",
   },
 ];
 
@@ -296,6 +309,15 @@ const POSTS = [
     date: "2025-11-27", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n6911390db91d",
+    tags: ["DevLog"],
+  },
+       {
+    id: "note-14",
+    title: "中二病風占いを公開しました。",
+    // 公開した日
+    date: "2025-11-28", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nff812f91ce6f?app_launch=false",
     tags: ["DevLog"],
   },
 ];
