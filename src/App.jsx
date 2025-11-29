@@ -193,6 +193,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-11-28",
   },
+            {
+    id: "app-15",
+    name: "シューティングゲーム？",
+    tagline: "ブラウザで動くシューティングゲーム的なやつです",
+    description: "ゲームが作りたいですね",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://day15shootinggame-fnjpfp6bjqhale65xnnnv7.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-11-29",
+  },
 ];
 
 const POSTS = [
@@ -318,6 +331,15 @@ const POSTS = [
     date: "2025-11-28", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nff812f91ce6f?app_launch=false",
+    tags: ["DevLog"],
+  },
+       {
+    id: "note-15",
+    title: "シューティングゲームを公開しました。",
+    // 公開した日
+    date: "2025-11-29", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n0301ae2089f2?app_launch=false",
     tags: ["DevLog"],
   },
 ];
