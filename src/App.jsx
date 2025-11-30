@@ -206,6 +206,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-11-29",
   },
+              {
+    id: "app-16",
+    name: "簡易ストレスチェッカー",
+    tagline: "簡易的なストレスチェッカーと簡単なアドバイス",
+    description: "ストレスは悪いものじゃないですけどね",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-lew2abvedtnne4yrkwcjar.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-11-30",
+  },
 ];
 
 const POSTS = [
@@ -340,6 +353,15 @@ const POSTS = [
     date: "2025-11-29", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n0301ae2089f2?app_launch=false",
+    tags: ["DevLog"],
+  },
+       {
+    id: "note-16",
+    title: "簡易的なストレスチェッカーを公開しました。",
+    // 公開した日
+    date: "2025-11-30", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n8cc7f7e672c0",
     tags: ["DevLog"],
   },
 ];
