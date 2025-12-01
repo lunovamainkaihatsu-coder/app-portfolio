@@ -219,6 +219,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-11-30",
   },
+              {
+    id: "app-17",
+    name: "簡易ゲームアイデアアプリ",
+    tagline: "ゲームアイデアを簡単に出す",
+    description: "ゲーム作りもやっていきたいな",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-mrwtmowwhzlumtrvmqphhc.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-12-1",
+  },
 ];
 
 const POSTS = [
@@ -362,6 +375,14 @@ const POSTS = [
     date: "2025-11-30", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n8cc7f7e672c0",
+    tags: ["DevLog"],
+  },
+    id: "note-17",
+    title: "簡易的なゲームアイデアを公開しました。",
+    // 公開した日
+    date: "2025-12-1", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n111645309f95?app_launch=false",
     tags: ["DevLog"],
   },
 ];
