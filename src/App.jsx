@@ -232,6 +232,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-12-1",
   },
+              {
+    id: "app-18",
+    name: "簡単なゲームアプリ",
+    tagline: "ミニゲームにも満たないレベルのゲーム",
+    description: "ゲーム作り楽しい",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-jn6ryfhgz4ciminppe5y9q.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-12-2",
+  },
 ];
 
 const POSTS = [
@@ -377,12 +390,22 @@ const POSTS = [
     url: "https://note.com/lunova_create/n/n8cc7f7e672c0",
     tags: ["DevLog"],
   },
+  {
     id: "note-17",
     title: "簡易的なゲームアイデアを公開しました。",
     // 公開した日
     date: "2025-12-1", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n111645309f95?app_launch=false",
+    tags: ["DevLog"],
+  },
+  {
+    id: "note-18",
+    title: "簡易的なゲームアプリを公開しました。",
+    // 公開した日
+    date: "2025-12-2", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n76d33d0bf12a?app_launch=false",
     tags: ["DevLog"],
   },
 ];
