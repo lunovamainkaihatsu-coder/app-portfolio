@@ -245,6 +245,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-12-2",
   },
+              {
+    id: "app-19",
+    name: "簡単なデトックスアプリ",
+    tagline: "溜まった思いを吐露しよう",
+    description: "メンタルが一番大事",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://day19simpledetoxapp-bpujcjshoipyo8x2sq36ay.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-12-3",
+  },
 ];
 
 const POSTS = [
@@ -406,6 +419,15 @@ const POSTS = [
     date: "2025-12-2", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n76d33d0bf12a?app_launch=false",
+    tags: ["DevLog"],
+  },
+  {
+    id: "note-19",
+    title: "簡単なデトックスアプリを公開しました",
+    // 公開した日
+    date: "2025-12-3", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n1ffbbb4cc193?app_launch=false",
     tags: ["DevLog"],
   },
 ];
