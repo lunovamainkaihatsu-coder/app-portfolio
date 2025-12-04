@@ -258,6 +258,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-12-3",
   },
+              {
+    id: "app-20",
+    name: "一言処方箋を公開しました",
+    tagline: "メンタルケア",
+    description: "メンタルが一番大事",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-v7fz9h9kscfmpbth8e7nwu.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-12-4",
+  },
 ];
 
 const POSTS = [
@@ -428,6 +441,15 @@ const POSTS = [
     date: "2025-12-3", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n1ffbbb4cc193?app_launch=false",
+    tags: ["DevLog"],
+  },
+  {
+    id: "note-20",
+    title: "一言処方箋アプリを公開しました",
+    // 公開した日
+    date: "2025-12-4", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n840b1257e722?app_launch=false",
     tags: ["DevLog"],
   },
 ];
