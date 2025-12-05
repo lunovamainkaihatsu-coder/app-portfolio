@@ -271,6 +271,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-12-4",
   },
+              {
+    id: "app-21",
+    name: "未来メッセージボックスアプリを公開しました。",
+    tagline: "引き寄せ",
+    description: "未来を信じていく",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-rwtbbn7tmxp5isyukp4xmh.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-12-5",
+  },
 ];
 
 const POSTS = [
@@ -450,6 +463,15 @@ const POSTS = [
     date: "2025-12-4", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n840b1257e722?app_launch=false",
+    tags: ["DevLog"],
+  },
+  {
+    id: "note-21",
+    title: "未来メッセージボックスアプリを公開しました。",
+    // 公開した日
+    date: "2025-12-5", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n4c8385649065?app_launch=false",
     tags: ["DevLog"],
   },
 ];
