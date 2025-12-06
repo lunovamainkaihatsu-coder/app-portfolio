@@ -284,6 +284,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-12-5",
   },
+              {
+    id: "app-22",
+    name: "神秘動物占いを公開しました。",
+    tagline: "占い",
+    description: "神秘的な動物",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://day22animalfortune-bsr7xnjosxplx69d6jmkvz.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-12-6",
+  },
 ];
 
 const POSTS = [
@@ -472,6 +485,15 @@ const POSTS = [
     date: "2025-12-5", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n4c8385649065?app_launch=false",
+    tags: ["DevLog"],
+  },
+  {
+    id: "note-22",
+    title: "神秘動物占いを公開しました。",
+    // 公開した日
+    date: "2025-12-6", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n8f4444a57eb5?app_launch=false",
     tags: ["DevLog"],
   },
 ];
