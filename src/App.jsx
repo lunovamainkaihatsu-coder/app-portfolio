@@ -310,6 +310,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-12-7",
   },
+              {
+    id: "app-24",
+    name: "自由度チェッカー",
+    tagline: "自由",
+    description: "自由でいたい",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://day24freescoreapp-iqubas3v4cazduoehjxxsy.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-12-8",
+  },
 ];
 
 const POSTS = [
@@ -516,6 +529,15 @@ const POSTS = [
     date: "2025-12-7", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nc6c1d624f254?app_launch=false",
+    tags: ["DevLog"],
+  },
+  {
+    id: "note-24",
+    title: "自由度メーターを公開しました。",
+    // 公開した日
+    date: "2025-12-8", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n2de997fe5d78?app_launch=false",
     tags: ["DevLog"],
   },
 ];
