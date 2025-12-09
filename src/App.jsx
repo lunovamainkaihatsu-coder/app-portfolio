@@ -323,6 +323,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-12-8",
   },
+              {
+    id: "app-25",
+    name: "こども気分チェッカー & 親フォロー",
+    tagline: "親のため",
+    description: "子育ては大変",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-3ssjnf78bjxuenkr4qvagg.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-12-9",
+  },
 ];
 
 const POSTS = [
@@ -538,6 +551,15 @@ const POSTS = [
     date: "2025-12-8", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n2de997fe5d78?app_launch=false",
+    tags: ["DevLog"],
+  },
+  {
+    id: "note-25",
+    title: "https://mainitiapp-3ssjnf78bjxuenkr4qvagg.streamlit.app/",
+    // 公開した日
+    date: "2025-12-9", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nae163f534bf7?app_launch=false",
     tags: ["DevLog"],
   },
 ];
