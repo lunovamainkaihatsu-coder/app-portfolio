@@ -336,6 +336,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-12-9",
   },
+              {
+    id: "app-26",
+    name: "17秒×4 願望フォーカスルーム",
+    tagline: "願望実現",
+    description: "願いを叶える",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-8q35baxkwtmfabxyhw8x5b.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-12-10",
+  },
 ];
 
 const POSTS = [
@@ -555,11 +568,20 @@ const POSTS = [
   },
   {
     id: "note-25",
-    title: "https://mainitiapp-3ssjnf78bjxuenkr4qvagg.streamlit.app/",
+    title: "こども気分チェッカー & 親フォローを公開しました",
     // 公開した日
     date: "2025-12-9", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nae163f534bf7?app_launch=false",
+    tags: ["DevLog"],
+  },
+  {
+    id: "note-26",
+    title: "",
+    // 公開した日
+    date: "2025-12-9", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n16ebfb1ae800?app_launch=false",
     tags: ["DevLog"],
   },
 ];
