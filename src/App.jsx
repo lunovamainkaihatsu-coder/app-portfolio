@@ -349,6 +349,18 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-12-10",
   },
+    id: "app-27",
+    name: "ルナに聞け！即アンサー",
+    tagline: "質問を聞く",
+    description: "答えるよ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-dzxy9g6lzerrhgmm9rmuha.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-12-11",
+  },
 ];
 
 const POSTS = [
@@ -577,11 +589,20 @@ const POSTS = [
   },
   {
     id: "note-26",
-    title: "",
+    title: "17秒×4 願望フォーカスルーム",
     // 公開した日
-    date: "2025-12-9", 
+    date: "2025-12-10", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n16ebfb1ae800?app_launch=false",
+    tags: ["DevLog"],
+  },
+  {
+    id: "note-27",
+    title: "ルナに聞け！即アンサー",
+    // 公開した日
+    date: "2025-12-11", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n833c0117a849?app_launch=false",
     tags: ["DevLog"],
   },
 ];
