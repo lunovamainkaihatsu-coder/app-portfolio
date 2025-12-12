@@ -349,6 +349,7 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-12-10",
   },
+                {
     id: "app-27",
     name: "ルナに聞け！即アンサー",
     tagline: "質問を聞く",
@@ -360,6 +361,19 @@ const APPS = [
     status: "公開中",
     // 今日の日付などに更新
     updatedAt: "2025-12-11",
+  },
+                {
+    id: "app-28",
+    name: "簡易宝くじ占い",
+    tagline: "宝くじ",
+    description: "あたるといいね",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://takarakuji-adsc7ecksukz3retut4wrj.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-12-12",
   },
 ];
 
@@ -603,6 +617,15 @@ const POSTS = [
     date: "2025-12-11", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n833c0117a849?app_launch=false",
+    tags: ["DevLog"],
+  },
+  {
+    id: "note-28",
+    title: "簡易宝くじアプリ",
+    // 公開した日
+    date: "2025-12-12", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n439bf99bb1da",
     tags: ["DevLog"],
   },
 ];
