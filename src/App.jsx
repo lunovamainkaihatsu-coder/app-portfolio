@@ -375,6 +375,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-12-12",
   },
+                {
+    id: "app-29",
+    name: "気付かせAI",
+    tagline: "今日の気づき",
+    description: "メンタルは重要",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-nwn3etkxinfvhlby43gjwl.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-12-13",
+  },
 ];
 
 const POSTS = [
@@ -626,6 +639,15 @@ const POSTS = [
     date: "2025-12-12", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n439bf99bb1da",
+    tags: ["DevLog"],
+  },
+  {
+    id: "note-29",
+    title: "気付きアプリ",
+    // 公開した日
+    date: "2025-12-13", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n14fa684bce04?app_launch=false",
     tags: ["DevLog"],
   },
 ];
