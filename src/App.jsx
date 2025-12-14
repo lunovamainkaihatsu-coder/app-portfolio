@@ -388,6 +388,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-12-13",
   },
+                {
+    id: "app-30",
+    name: "数秘術占いアプリ",
+    tagline: "簡易アプリ",
+    description: "占い好き",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-jov3yy3z9zyjgkttywfgfx.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-12-14",
+  },
 ];
 
 const POSTS = [
@@ -648,6 +661,15 @@ const POSTS = [
     date: "2025-12-13", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n14fa684bce04?app_launch=false",
+    tags: ["DevLog"],
+  },
+  {
+    id: "note-30",
+    title: "数秘術占い簡易版",
+    // 公開した日
+    date: "2025-12-14", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nc3b45f235a8b?app_launch=false",
     tags: ["DevLog"],
   },
 ];
