@@ -401,6 +401,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-12-14",
   },
+                {
+    id: "app-31",
+    name: "年末おそうじチェック",
+    tagline: "掃除チェック",
+    description: "年末ですね",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-fewk4yqdnkzvtukzjvuitj.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-12-15",
+  },
 ];
 
 const POSTS = [
@@ -670,6 +683,15 @@ const POSTS = [
     date: "2025-12-14", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nc3b45f235a8b?app_launch=false",
+    tags: ["DevLog"],
+  },
+  {
+    id: "note-31",
+    title: "年末そうじチェックアプリを公開しました",
+    // 公開した日
+    date: "2025-12-15", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nb15df7e89d5d?app_launch=false",
     tags: ["DevLog"],
   },
 ];
