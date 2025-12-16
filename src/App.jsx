@@ -414,6 +414,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-12-15",
   },
+                {
+    id: "app-32",
+    name: "人生パターン診断アプリ",
+    tagline: "人生を優しく診断",
+    description: "診断しよう",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-5rszph3edlxtotsjofktdj.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-12-15",
+  },
 ];
 
 const POSTS = [
@@ -692,6 +705,15 @@ const POSTS = [
     date: "2025-12-15", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nb15df7e89d5d?app_launch=false",
+    tags: ["DevLog"],
+  },
+  {
+    id: "note-32",
+    title: "人生パターン診断を公開しました",
+    // 公開した日
+    date: "2025-12-16", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n2f72af00e7f4?app_launch=false",
     tags: ["DevLog"],
   },
 ];
