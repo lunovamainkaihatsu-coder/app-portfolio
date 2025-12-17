@@ -427,6 +427,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-12-15",
   },
+                {
+    id: "app-33",
+    name: "お年玉管理アプリ",
+    tagline: "大人向け",
+    description: "いくらもらっていくらだしたか",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-3ffmd5e396yjm3yg3lpyxx.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-12-16",
+  },
 ];
 
 const POSTS = [
@@ -714,6 +727,15 @@ const POSTS = [
     date: "2025-12-16", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n2f72af00e7f4?app_launch=false",
+    tags: ["DevLog"],
+  },
+  {
+    id: "note-33",
+    title: "お年玉管理アプリを公開しました",
+    // 公開した日
+    date: "2025-12-16", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n4d644e60d411?app_launch=false",
     tags: ["DevLog"],
   },
 ];
