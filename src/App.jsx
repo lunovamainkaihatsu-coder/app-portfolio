@@ -440,6 +440,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-12-16",
   },
+                {
+    id: "app-34",
+    name: "頭の中ごちゃごちゃ整理アプリ",
+    tagline: "頭の中",
+    description: "整理しよう",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-c6qlgzzvasn9wegf3gkqrc.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-12-17",
+  },
 ];
 
 const POSTS = [
@@ -736,6 +749,15 @@ const POSTS = [
     date: "2025-12-16", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n4d644e60d411?app_launch=false",
+    tags: ["DevLog"],
+  },
+  {
+    id: "note-34",
+    title: "頭の中野ごちゃごちゃ整理アプリを公開しました",
+    // 公開した日
+    date: "2025-12-17", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n138158a36d00?app_launch=false",
     tags: ["DevLog"],
   },
 ];
