@@ -453,6 +453,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-12-17",
   },
+                {
+    id: "app-35",
+    name: "勉強タイマー",
+    tagline: "勉強",
+    description: "集中しよう",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-5ziwaohmeorh5pxvykpg5e.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-12-18",
+  },
 ];
 
 const POSTS = [
@@ -758,6 +771,15 @@ const POSTS = [
     date: "2025-12-17", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n138158a36d00?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-35",
+    title: "勉強タイマーを公開しました",
+    // 公開した日
+    date: "2025-12-18", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nb15cb022c970?app_launch=false",
     tags: ["DevLog"],
   },
 ];
