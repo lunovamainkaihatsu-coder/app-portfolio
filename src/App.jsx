@@ -466,6 +466,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-12-18",
   },
+                {
+    id: "app-36",
+    name: "スケジュールアプリ",
+    tagline: "時間管理",
+    description: "何をやるか",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-cx2kztsvbwokwimmemnao8.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-12-20",
+  },
 ];
 
 const POSTS = [
@@ -780,6 +793,15 @@ const POSTS = [
     date: "2025-12-18", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nb15cb022c970?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-36",
+    title: "スケジュールアプリを公開しました",
+    // 公開した日
+    date: "2025-12-20", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nac1cfeb844d0?app_launch=false",
     tags: ["DevLog"],
   },
 ];
