@@ -479,6 +479,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-12-20",
   },
+                {
+    id: "app-37",
+    name: "まいにち運気家計簿",
+    tagline: "占いと家計簿",
+    description: "運気は参考程度",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-kutv8c7cr8anoyk89ruova.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-12-21",
+  },
 ];
 
 const POSTS = [
@@ -802,6 +815,15 @@ const POSTS = [
     date: "2025-12-20", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nac1cfeb844d0?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-37",
+    title: "まいにち運気家計簿を公開しました。",
+    // 公開した日
+    date: "2025-12-21", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n31aef8746063?app_launch=false",
     tags: ["DevLog"],
   },
 ];
