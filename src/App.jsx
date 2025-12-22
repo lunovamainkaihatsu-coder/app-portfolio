@@ -492,6 +492,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-12-21",
   },
+                {
+    id: "app-38",
+    name: "購入予定・発売日リスト",
+    tagline: "買うもの選別",
+    description: "買うか買わないか",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-ydeqym9qpyphltykzcnpsh.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-12-22",
+  },
 ];
 
 const POSTS = [
@@ -824,6 +837,15 @@ const POSTS = [
     date: "2025-12-21", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n31aef8746063?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-38",
+    title: "購入予定・発売日リストを公開しました。",
+    // 公開した日
+    date: "2025-12-22", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n6e555735fe46?app_launch=false",
     tags: ["DevLog"],
   },
 ];
