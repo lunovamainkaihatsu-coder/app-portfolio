@@ -505,6 +505,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-12-22",
   },
+                {
+    id: "app-39",
+    name: "なにもしない",
+    tagline: "なにもしない",
+    description: "なにもしない",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-xm7leystrwcst4g4ytk7l3.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-12-23",
+  },
 ];
 
 const POSTS = [
@@ -846,6 +859,15 @@ const POSTS = [
     date: "2025-12-22", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n6e555735fe46?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-39",
+    title: "なにもしない宣言を公開しました。",
+    // 公開した日
+    date: "2025-12-23", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n3b17455adfb2?app_launch=false",
     tags: ["DevLog"],
   },
 ];
