@@ -518,6 +518,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-12-23",
   },
+                {
+    id: "app-40",
+    name: "迷いもの熟成リスト",
+    tagline: "買うかどうか",
+    description: "迷ったら",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-b2jpszh2pcmfgxx5wwyqr2.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-12-24",
+  },
 ];
 
 const POSTS = [
@@ -868,6 +881,15 @@ const POSTS = [
     date: "2025-12-23", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n3b17455adfb2?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-40",
+    title: "迷いもの熟成リストを公開しました",
+    // 公開した日
+    date: "2025-12-24", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/ncaba85ea2e52?app_launch=false",
     tags: ["DevLog"],
   },
 ];
