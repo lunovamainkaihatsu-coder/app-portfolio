@@ -531,6 +531,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-12-24",
   },
+                {
+    id: "app-41",
+    name: "余白アプリ",
+    tagline: "余白が重要",
+    description: "余白",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-h8vvvu5hnnkbhrzf5zspeh.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-12-26",
+  },
 ];
 
 const POSTS = [
@@ -890,6 +903,15 @@ const POSTS = [
     date: "2025-12-24", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/ncaba85ea2e52?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-41",
+    title: "余白アプリを公開しました",
+    // 公開した日
+    date: "2025-12-26", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n378ec9d48fd9?app_launch=false",
     tags: ["DevLog"],
   },
 ];
