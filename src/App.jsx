@@ -544,6 +544,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-12-26",
   },
+                {
+    id: "app-42",
+    name: "やらないことリスト",
+    tagline: "やらないことも重要",
+    description: "断捨離",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-fqcvfzxgksofctegovygq7.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-12-28",
+  },
 ];
 
 const POSTS = [
@@ -912,6 +925,15 @@ const POSTS = [
     date: "2025-12-26", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n378ec9d48fd9?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-42",
+    title: "やらないことを公開しました",
+    // 公開した日
+    date: "2025-12-28", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n20dca9158b01",
     tags: ["DevLog"],
   },
 ];
