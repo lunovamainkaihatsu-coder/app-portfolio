@@ -557,6 +557,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-12-28",
   },
+                {
+    id: "app-43",
+    name: "今日の自分、合格？",
+    tagline: "自分を許す",
+    description: "許可",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-hf2rywluegdqkw8s8qmmx6.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-12-30",
+  },
 ];
 
 const POSTS = [
@@ -934,6 +947,15 @@ const POSTS = [
     date: "2025-12-28", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n20dca9158b01",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-43",
+    title: "今日の自分合格？アプリを公開しました",
+    // 公開した日
+    date: "2025-12-30", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n8e377c676b93?app_launch=false",
     tags: ["DevLog"],
   },
 ];
