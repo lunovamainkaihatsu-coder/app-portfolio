@@ -570,6 +570,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2025-12-30",
   },
+                {
+    id: "app-44",
+    name: "今年のありがとう3つだけアプリ",
+    tagline: "2025年最後",
+    description: "ありがとうございました",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-n8nv87rh5wtm7w65mwxkyo.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2025-12-31",
+  },
 ];
 
 const POSTS = [
@@ -956,6 +969,15 @@ const POSTS = [
     date: "2025-12-30", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n8e377c676b93?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-44",
+    title: "今年のありがとう、3つだけアプリを公開しました",
+    // 公開した日
+    date: "2025-12-31", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n35a166e8ddcf?app_launch=false",
     tags: ["DevLog"],
   },
 ];
