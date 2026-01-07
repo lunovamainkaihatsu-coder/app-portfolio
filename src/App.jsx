@@ -596,6 +596,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-1-5",
   },
+                {
+    id: "app-46",
+    name: "ミニご褒美ガチャ",
+    tagline: "ご褒美",
+    description: "簡易的",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-ax3ytkxsnyzfl29vd8ubes.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-1-7",
+  },
 ];
 
 const POSTS = [
@@ -1000,6 +1013,15 @@ const POSTS = [
     date: "2026-1-5", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n00c0104ec8cb?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-46",
+    title: "ミニご褒美ガチャを公開しました",
+    // 公開した日
+    date: "2026-1-7", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nf2ffde302b2b?app_launch=false",
     tags: ["DevLog"],
   },
 ];
