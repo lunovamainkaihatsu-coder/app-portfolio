@@ -609,6 +609,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-1-7",
   },
+                {
+    id: "app-47",
+    name: "来年目標ジェネレーター",
+    tagline: "来年というか今年",
+    description: "目標",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitigohan-ucvkmu5dhdgtu39qxgw27p.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-1-8",
+  },
 ];
 
 const POSTS = [
@@ -1022,6 +1035,15 @@ const POSTS = [
     date: "2026-1-7", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nf2ffde302b2b?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-47",
+    title: "来年目標ジェネレーターを公開しました",
+    // 公開した日
+    date: "2026-1-8", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/ndec95fd11af9?app_launch=false",
     tags: ["DevLog"],
   },
 ];
