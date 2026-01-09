@@ -622,6 +622,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-1-8",
   },
+                {
+    id: "app-48",
+    name: "続いている可視化アプリ",
+    tagline: "できているということ",
+    description: "継続",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-krbufsyjfrmtiadubsdcbg.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-1-9",
+  },
 ];
 
 const POSTS = [
@@ -1044,6 +1057,15 @@ const POSTS = [
     date: "2026-1-8", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/ndec95fd11af9?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-48",
+    title: "ちゃんと続いている可視化アプリを公開しました",
+    // 公開した日
+    date: "2026-1-9", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n08abe5e328b7?app_launch=false",
     tags: ["DevLog"],
   },
 ];
