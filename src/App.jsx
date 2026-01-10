@@ -635,6 +635,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-1-9",
   },
+                {
+    id: "app-49",
+    name: "継続トラッカー",
+    tagline: "継続",
+    description: "継続",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-ybggcw4z6hhukt2dbhmywq.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-1-10",
+  },
 ];
 
 const POSTS = [
@@ -1066,6 +1079,15 @@ const POSTS = [
     date: "2026-1-9", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n08abe5e328b7?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-49",
+    title: "継続トラッカーアプリを公開しました",
+    // 公開した日
+    date: "2026-1-10", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nfd661c6b118b?app_launch=false",
     tags: ["DevLog"],
   },
 ];
