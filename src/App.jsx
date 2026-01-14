@@ -674,6 +674,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-1-13",
   },
+                {
+    id: "app-52",
+    name: "朝活15分アプリ",
+    tagline: "朝活",
+    description: "15分",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-swmgnfcylyw7x6okdj6bjq.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-1-14",
+  },
 ];
 
 const POSTS = [
@@ -1132,6 +1145,15 @@ const POSTS = [
     date: "2026-1-13", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n6df47b20ab70?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-52",
+    title: "朝活スイッチ15分アプリを公開しました",
+    // 公開した日
+    date: "2026-1-14", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n2c711433405d?app_launch=false",
     tags: ["DevLog"],
   },
 ];
