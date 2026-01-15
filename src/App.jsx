@@ -687,6 +687,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-1-14",
   },
+                {
+    id: "app-53",
+    name: "一言予言アプリ",
+    tagline: "占い",
+    description: "予言",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-eqcplyz5pyl2vnrb7hy5hv.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-1-15",
+  },
 ];
 
 const POSTS = [
@@ -1156,6 +1169,16 @@ const POSTS = [
     url: "https://note.com/lunova_create/n/n2c711433405d?app_launch=false",
     tags: ["DevLog"],
   },
+    {
+    id: "note-53",
+    title: "一言予言アプリを公開しました",
+    // 公開した日
+    date: "2026-1-15", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n8b2eb59b3b66?app_launch=false",
+    tags: ["DevLog"],
+  },
+
 ];
 // =====================================================
 
