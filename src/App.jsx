@@ -700,6 +700,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-1-15",
   },
+                {
+    id: "app-54",
+    name: "簡単怪談ジェネレーターアプリ",
+    tagline: "怪談",
+    description: "ジェネレーター",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-nmzbpou9npb6yfdmtsnkzm.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-1-16",
+  },
 ];
 
 const POSTS = [
@@ -1178,7 +1191,15 @@ const POSTS = [
     url: "https://note.com/lunova_create/n/n8b2eb59b3b66?app_launch=false",
     tags: ["DevLog"],
   },
-
+    {
+    id: "note-54",
+    title: "簡易怪談ジェネレーターアプリを公開しました",
+    // 公開した日
+    date: "2026-1-16", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n5bf2cc0a9280?app_launch=false",
+    tags: ["DevLog"],
+  },
 ];
 // =====================================================
 
