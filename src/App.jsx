@@ -778,6 +778,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-1-21",
   },
+                {
+    id: "app-60",
+    name: "簡易対人運夢占い",
+    tagline: "占い",
+    description: "夢占い",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-3josneo6b9svenuuo326fv.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-1-22",
+  },
 ];
 
 const POSTS = [
@@ -1308,6 +1321,15 @@ const POSTS = [
     date: "2026-1-21", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nb7552042cb1f?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-60",
+    title: "簡易対人運夢占いアプリを公開しました",
+    // 公開した日
+    date: "2026-1-22", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nf14eae592f12?app_launch=false",
     tags: ["DevLog"],
   },
 ];
