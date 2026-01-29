@@ -830,6 +830,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-1-27",
   },
+                {
+    id: "app-64",
+    name: "闇がみえる心理テスト",
+    tagline: "こわい",
+    description: "テスト",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-lns8aimuineev6kpcmappyo.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-1-29",
+  },
 ];
 
 const POSTS = [
@@ -1396,6 +1409,15 @@ const POSTS = [
     date: "2026-1-27", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n305446359415?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-64",
+    title: "闇がみえる心理テストを公開しました",
+    // 公開した日
+    date: "2026-1-29", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n12033c3d3b3d?app_launch=false",
     tags: ["DevLog"],
   },
 ];
