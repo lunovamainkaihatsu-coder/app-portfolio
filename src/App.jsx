@@ -856,6 +856,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-1-30",
   },
+                {
+    id: "app-66",
+    name: "自分を褒めるAIを公開しました",
+    tagline: "回復アクション",
+    description: "回復しよう",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-zynmqermuzk5pnrver44p6.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-2-2",
+  },
 ];
 
 const POSTS = [
@@ -1440,6 +1453,15 @@ const POSTS = [
     date: "2026-1-30", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n9f5ca863a887?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-66",
+    title: "自分を褒めるAIを公開しました",
+    // 公開した日
+    date: "2026-2-2", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n4b7dfea69fee?app_launch=false",
     tags: ["DevLog"],
   },
 ];
