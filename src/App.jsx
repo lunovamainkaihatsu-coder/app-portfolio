@@ -882,6 +882,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-2-3",
   },
+                {
+    id: "app-68",
+    name: "明日のひとつだけAI",
+    tagline: "ひとつだけ",
+    description: "やってみよう",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitigohan-yxwvjysdu33wnoycjxcye6.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-2-4",
+  },
 ];
 
 const POSTS = [
@@ -1484,6 +1497,15 @@ const POSTS = [
     date: "2026-2-3", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n848531fa20d8?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-68",
+    title: "明日のひとつだけAIアプリを公開しました",
+    // 公開した日
+    date: "2026-2-4", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/notes/naa267c901a88/landing?puid=cceba3ca-16e1-4044-9ae5-9d699719305a",
     tags: ["DevLog"],
   },
 ];
