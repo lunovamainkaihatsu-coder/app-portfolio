@@ -908,6 +908,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-2-6",
   },
+                {
+    id: "app-70",
+    name: "週の振り返りAI",
+    tagline: "週の目標",
+    description: "やってみよう",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-ckpe8mqgb7ahbmqpajwcbg.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-2-7",
+  },
 ];
 
 const POSTS = [
@@ -1528,6 +1541,15 @@ const POSTS = [
     date: "2026-2-6", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n3195bafe3cd0?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-70",
+    title: "週の振り返りAIアプリを公開しました",
+    // 公開した日
+    date: "2026-2-7", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nd7389d8f116e?app_launch=false",
     tags: ["DevLog"],
   },
 ];
