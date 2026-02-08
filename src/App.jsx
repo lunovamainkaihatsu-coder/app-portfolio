@@ -921,6 +921,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-2-7",
   },
+                {
+    id: "app-71",
+    name: "一行家計簿",
+    tagline: "お金の管理",
+    description: "家計簿",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-hxlhmtz9j6mqso8ay8m5pu.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-2-8",
+  },
 ];
 
 const POSTS = [
@@ -1550,6 +1563,15 @@ const POSTS = [
     date: "2026-2-7", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nd7389d8f116e?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-71",
+    title: "一行家計簿を公開しました",
+    // 公開した日
+    date: "2026-2-8", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n43a707e0224f",
     tags: ["DevLog"],
   },
 ];
