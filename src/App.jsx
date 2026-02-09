@@ -934,6 +934,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-2-8",
   },
+                {
+    id: "app-72",
+    name: "神経衰弱",
+    tagline: "ゲーム",
+    description: "ゲーム",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-ucxw68veadvdfracjkhx38.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-2-9",
+  },
 ];
 
 const POSTS = [
@@ -1572,6 +1585,15 @@ const POSTS = [
     date: "2026-2-8", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n43a707e0224f",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-72",
+    title: "神経衰弱ゲームを公開しました",
+    // 公開した日
+    date: "2026-2-9", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n088c8f4a5191?app_launch=false",
     tags: ["DevLog"],
   },
 ];
