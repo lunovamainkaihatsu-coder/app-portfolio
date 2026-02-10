@@ -947,6 +947,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-2-9",
   },
+                {
+    id: "app-73",
+    name: "支払い日リマインダー",
+    tagline: "支出",
+    description: "固定費",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-jnxd67rthvqheemzzkcbyf.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-2-10",
+  },
 ];
 
 const POSTS = [
@@ -1594,6 +1607,15 @@ const POSTS = [
     date: "2026-2-9", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n088c8f4a5191?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-73",
+    title: "支払日リマインダーを公開しました",
+    // 公開した日
+    date: "2026-2-10", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/ne30bd0ae07b8",
     tags: ["DevLog"],
   },
 ];
