@@ -960,6 +960,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-2-10",
   },
+                {
+    id: "app-74",
+    name: "戦隊あわせ",
+    tagline: "戦隊",
+    description: "〇〇戦隊〇〇ジャー",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-8tebqxthygvmhagqim7fzp.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-2-12",
+  },
 ];
 
 const POSTS = [
@@ -1616,6 +1629,15 @@ const POSTS = [
     date: "2026-2-10", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/ne30bd0ae07b8",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-74",
+    title: "戦隊合わせを公開しました",
+    // 公開した日
+    date: "2026-2-12", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n7a761790c1cd?app_launch=false",
     tags: ["DevLog"],
   },
 ];
