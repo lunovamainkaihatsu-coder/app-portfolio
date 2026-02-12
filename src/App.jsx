@@ -973,6 +973,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-2-12",
   },
+                {
+    id: "app-75",
+    name: "ヒーロー診断",
+    tagline: "ヒーロー",
+    description: "診断",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-hn6nyzzrqthxabnbbwfv4n.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-2-13",
+  },
 ];
 
 const POSTS = [
@@ -1638,6 +1651,15 @@ const POSTS = [
     date: "2026-2-12", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n7a761790c1cd?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-75",
+    title: "ヒーロー診断を公開しました",
+    // 公開した日
+    date: "2026-2-13", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n7ca56cbb065b?app_launch=false",
     tags: ["DevLog"],
   },
 ];
