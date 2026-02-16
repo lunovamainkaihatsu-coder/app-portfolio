@@ -986,6 +986,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-2-13",
   },
+                {
+    id: "app-76",
+    name: "必殺技メーカー",
+    tagline: "必殺技",
+    description: "メーカー",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-mg6eeuybccvzufy892ccqd.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-2-16",
+  },
 ];
 
 const POSTS = [
@@ -1660,6 +1673,15 @@ const POSTS = [
     date: "2026-2-13", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n7ca56cbb065b?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-76",
+    title: "必殺技メーカーを公開しました",
+    // 公開した日
+    date: "2026-2-16", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/notes/nda40d1ee481d/landing?puid=b747dd74-5849-438c-8cbe-a1ef6684066c",
     tags: ["DevLog"],
   },
 ];
