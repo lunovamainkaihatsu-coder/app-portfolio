@@ -999,6 +999,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-2-16",
   },
+                {
+    id: "app-77",
+    name: "名言メーカー",
+    tagline: "名言",
+    description: "メーカー",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-eahzon8n7jmvsjzv3sbosq.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-2-17",
+  },
 ];
 
 const POSTS = [
@@ -1682,6 +1695,15 @@ const POSTS = [
     date: "2026-2-16", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/notes/nda40d1ee481d/landing?puid=b747dd74-5849-438c-8cbe-a1ef6684066c",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-77",
+    title: "名言メーカーを公開しました",
+    // 公開した日
+    date: "2026-2-17", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n377593643d09?app_launch=false",
     tags: ["DevLog"],
   },
 ];
