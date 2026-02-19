@@ -1012,6 +1012,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-2-17",
   },
+                {
+    id: "app-78",
+    name: "ヒーロー製造機",
+    tagline: "ヒーロー",
+    description: "メーカー",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-n8294he3o6wdrqwusabdyz.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-2-19",
+  },
 ];
 
 const POSTS = [
@@ -1704,6 +1717,15 @@ const POSTS = [
     date: "2026-2-17", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n377593643d09?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-78",
+    title: "ヒーロー製造機を公開しました",
+    // 公開した日
+    date: "2026-2-19", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nf76956a17e0e?app_launch=false",
     tags: ["DevLog"],
   },
 ];
