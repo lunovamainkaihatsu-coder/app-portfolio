@@ -1025,6 +1025,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-2-19",
   },
+                {
+    id: "app-79",
+    name: "デスティニーログ",
+    tagline: "運命",
+    description: "記録",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-hxjcwmvbdfhfpw4ecejfuz.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-2-24",
+  },
 ];
 
 const POSTS = [
@@ -1726,6 +1739,15 @@ const POSTS = [
     date: "2026-2-19", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nf76956a17e0e?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-79",
+    title: "デスティニーログを公開しました",
+    // 公開した日
+    date: "2026-2-24", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nc9ecd69b8d08?app_launch=false",
     tags: ["DevLog"],
   },
 ];
