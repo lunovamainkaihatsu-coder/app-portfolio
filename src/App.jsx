@@ -1038,6 +1038,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-2-24",
   },
+                {
+    id: "app-80",
+    name: "毎日ルーティンチェック",
+    tagline: "ルーティン",
+    description: "記録",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-y6zoncuhzcvbp2mtrjtvfm.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-2-25",
+  },
 ];
 
 const POSTS = [
@@ -1748,6 +1761,15 @@ const POSTS = [
     date: "2026-2-24", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nc9ecd69b8d08?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-80",
+    title: "毎日のルーティンアプリを公開しました",
+    // 公開した日
+    date: "2026-2-25", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nad0acbff86c4?app_launch=false",
     tags: ["DevLog"],
   },
 ];
