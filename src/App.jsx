@@ -1064,6 +1064,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-2-26",
   },
+                  {
+    id: "app-82",
+    name: "エナジーチェック",
+    tagline: "エネルギー",
+    description: "記録",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-hnsymtwybhm5wdbye2p7vt.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-3-2",
+  },
 ];
 
 const POSTS = [
@@ -1792,6 +1805,15 @@ const POSTS = [
     date: "2026-2-26", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n426687cf6fd3?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-82",
+    title: "エネルギーメーターアプリを公開しました",
+    // 公開した日
+    date: "2026-3-2", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n30efa50943b4",
     tags: ["DevLog"],
   },
 ];
