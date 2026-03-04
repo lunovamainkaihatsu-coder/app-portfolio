@@ -1090,6 +1090,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-3-3",
   },
+                  {
+    id: "app-84",
+    name: "アイデア保管庫",
+    tagline: "アイデア",
+    description: "保管庫",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-ki3rmcjazi7qbjdwfrixe5.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-3-4",
+  },
 ];
 
 const POSTS = [
@@ -1836,6 +1849,15 @@ const POSTS = [
     date: "2026-3-3", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n8014b04f7838?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-84",
+    title: "アイデア保管庫を公開しました",
+    // 公開した日
+    date: "2026-3-4", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nce323808dabc?app_launch=false",
     tags: ["DevLog"],
   },
 ];
