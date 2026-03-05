@@ -1103,6 +1103,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-3-4",
   },
+                  {
+    id: "app-85",
+    name: "アイデア収益化",
+    tagline: "アイデア",
+    description: "収益化",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-z9yoklr2cqmbryay8lgqcw.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-3-5",
+  },
 ];
 
 const POSTS = [
@@ -1858,6 +1871,15 @@ const POSTS = [
     date: "2026-3-4", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nce323808dabc?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-85",
+    title: "アイデア収益化を公開しました",
+    // 公開した日
+    date: "2026-3-5", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/naa9d7857880a?app_launch=false",
     tags: ["DevLog"],
   },
 ];
