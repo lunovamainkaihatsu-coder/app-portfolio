@@ -1129,6 +1129,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-3-6",
   },
+                  {
+    id: "app-87",
+    name: "ライフレベルシステム",
+    tagline: "ライフ",
+    description: "レベル",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-jwkzkebi4mgtpe3ggsiuun.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-3-10",
+  },
 ];
 
 const POSTS = [
@@ -1902,6 +1915,15 @@ const POSTS = [
     date: "2026-3-6", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nb0d0fca501b9?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-87",
+    title: "ライフレベルシステムを公開しました",
+    // 公開した日
+    date: "2026-3-10", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n4e6ec250ccdb?app_launch=false",
     tags: ["DevLog"],
   },
 ];
