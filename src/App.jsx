@@ -1142,6 +1142,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-3-10",
   },
+                  {
+    id: "app-88",
+    name: "世界線ルーレット",
+    tagline: "世界線",
+    description: "ルーレット",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-w5appvqz5vxwaiet7tnxzxm.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-3-11",
+  },
 ];
 
 const POSTS = [
@@ -1924,6 +1937,15 @@ const POSTS = [
     date: "2026-3-10", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n4e6ec250ccdb?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-88",
+    title: "世界線ルーレットを公開しました",
+    // 公開した日
+    date: "2026-3-11", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nc23d8818ea53",
     tags: ["DevLog"],
   },
 ];
