@@ -1168,6 +1168,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-3-12",
   },
+                  {
+    id: "app-90",
+    name: "AI人生コーチング",
+    tagline: "AI",
+    description: "コーチング",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-2vjm6pnuwavpf7feksf9oe.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-3-13",
+  },
 ];
 
 const POSTS = [
@@ -1968,6 +1981,15 @@ const POSTS = [
     date: "2026-3-12", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n89d7e9f91499",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-90",
+    title: "AI人生コーチングを公開しました",
+    // 公開した日
+    date: "2026-3-13", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n3f4a50843b8f?app_launch=false",
     tags: ["DevLog"],
   },
 ];
