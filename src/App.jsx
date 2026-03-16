@@ -1181,6 +1181,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-3-13",
   },
+                 {
+    id: "app-91",
+    name: "AI相談室",
+    tagline: "AI",
+    description: "相談室",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-uyvjyzbhrzcvfdvhc7ynak.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-3-13",
+  },
 ];
 
 const POSTS = [
@@ -1990,6 +2003,15 @@ const POSTS = [
     date: "2026-3-13", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n3f4a50843b8f?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-91",
+    title: "AI相談室を公開しました",
+    // 公開した日
+    date: "2026-3-16", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/ndb7cd4c40bba",
     tags: ["DevLog"],
   },
 ];
