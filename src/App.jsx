@@ -1207,6 +1207,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-3-17",
   },
+                 {
+    id: "app-93",
+    name: "感情マップ",
+    tagline: "感情",
+    description: "マップ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-wgf23ujcmvawvecxtgxfaw.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-3-18",
+  },
 ];
 
 const POSTS = [
@@ -2034,6 +2047,15 @@ const POSTS = [
     date: "2026-3-17", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n5814ca7639ab?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-93",
+    title: "感情マップを公開しました",
+    // 公開した日
+    date: "2026-3-18", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nc73927e46a9e?app_launch=false",
     tags: ["DevLog"],
   },
 ];
