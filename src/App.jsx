@@ -1220,6 +1220,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-3-18",
   },
+                 {
+    id: "app-94",
+    name: "ごきげん予報",
+    tagline: "機嫌",
+    description: "予報",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-gzobkxxvfhsdqwsxaavsxg.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-3-19",
+  },
 ];
 
 const POSTS = [
@@ -2056,6 +2069,15 @@ const POSTS = [
     date: "2026-3-18", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nc73927e46a9e?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-94",
+    title: "ごきげん予報を公開しました",
+    // 公開した日
+    date: "2026-3-19", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/ndf709f266f5d?app_launch=false",
     tags: ["DevLog"],
   },
 ];
