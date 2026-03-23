@@ -1233,6 +1233,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-3-19",
   },
+                 {
+    id: "app-95",
+    name: "一言褒めガチャ",
+    tagline: "一言",
+    description: "ガチャ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-92dmtlrmp8pv7u4y9rxwrb.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-3-23",
+  },
 ];
 
 const POSTS = [
@@ -2078,6 +2091,15 @@ const POSTS = [
     date: "2026-3-19", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/ndf709f266f5d?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-95",
+    title: "一言褒めガチャを公開しました",
+    // 公開した日
+    date: "2026-3-23", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/ncecf78b47350?app_launch=false",
     tags: ["DevLog"],
   },
 ];
