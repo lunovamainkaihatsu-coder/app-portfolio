@@ -1246,6 +1246,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-3-23",
   },
+                 {
+    id: "app-96",
+    name: "今日のラッキーカラー",
+    tagline: "ラッキーカラー",
+    description: "ガチャ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-ksbzkupgixvmmcrbwepvkx.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-3-27",
+  },
 ];
 
 const POSTS = [
@@ -2100,6 +2113,15 @@ const POSTS = [
     date: "2026-3-23", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/ncecf78b47350?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-96",
+    title: "今日のラッキーカラーを公開しました",
+    // 公開した日
+    date: "2026-3-27", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n501104d1e720?app_launch=false",
     tags: ["DevLog"],
   },
 ];
