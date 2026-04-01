@@ -1259,6 +1259,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-3-27",
   },
+                 {
+    id: "app-97",
+    name: "五秒ルーレット",
+    tagline: "やること",
+    description: "ルーレット",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-euuhzgsfhzcryj5jhfsrd3.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-4-1",
+  },
 ];
 
 const POSTS = [
@@ -2122,6 +2135,15 @@ const POSTS = [
     date: "2026-3-27", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n501104d1e720?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-97",
+    title: "五秒ルーレットを公開しました",
+    // 公開した日
+    date: "2026-4-1", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n6aac0a452d8d?app_launch=false",
     tags: ["DevLog"],
   },
 ];
