@@ -1298,6 +1298,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-4-6",
   },
+                 {
+    id: "app-100",
+    name: "今日の運勢カード",
+    tagline: "運勢",
+    description: "カード",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-f4dvklzkyfqv2pfa2dxr2b.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-4-7",
+  },
 ];
 
 const POSTS = [
@@ -2188,6 +2201,15 @@ const POSTS = [
     date: "2026-4-6", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nf9f4e0826930?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-100",
+    title: "今日の運勢カードを公開しました",
+    // 公開した日
+    date: "2026-4-7", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nec5588db9f2b",
     tags: ["DevLog"],
   },
 ];
