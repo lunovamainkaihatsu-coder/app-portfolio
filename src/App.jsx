@@ -1311,6 +1311,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-4-7",
   },
+                 {
+    id: "app-101",
+    name: "今日の小さな魔法",
+    tagline: "魔法",
+    description: "小さな",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-akdabv4v5r4cfbrk4xhhtm.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-4-8",
+  },
 ];
 
 const POSTS = [
@@ -2210,6 +2223,15 @@ const POSTS = [
     date: "2026-4-7", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nec5588db9f2b",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-101",
+    title: "今日の小さな魔法を公開しました",
+    // 公開した日
+    date: "2026-4-8", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n9a46547bc900?app_launch=false",
     tags: ["DevLog"],
   },
 ];
