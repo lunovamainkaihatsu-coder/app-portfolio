@@ -1324,6 +1324,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-4-8",
   },
+                 {
+    id: "app-102",
+    name: "きっかけボタン",
+    tagline: "きっかけ",
+    description: "ボタン",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-ghfkuvprwn9tparfz46ge5.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-4-10",
+  },
 ];
 
 const POSTS = [
@@ -2232,6 +2245,15 @@ const POSTS = [
     date: "2026-4-8", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n9a46547bc900?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-102",
+    title: "きっかけボタンを公開しました",
+    // 公開した日
+    date: "2026-4-10", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n62d4a1f3363a?app_launch=false",
     tags: ["DevLog"],
   },
 ];
