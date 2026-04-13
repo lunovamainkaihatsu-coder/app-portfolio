@@ -1337,6 +1337,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-4-10",
   },
+                 {
+    id: "app-103",
+    name: "ルナ天気",
+    tagline: "ルナ",
+    description: "天気",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-25ktvz9feuunhryzntktqy.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-4-13",
+  },
 ];
 
 const POSTS = [
@@ -2254,6 +2267,15 @@ const POSTS = [
     date: "2026-4-10", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n62d4a1f3363a?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-103",
+    title: "ひとこと天気アプリを公開しました",
+    // 公開した日
+    date: "2026-4-13", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n4dd5684d3007?app_launch=false",
     tags: ["DevLog"],
   },
 ];
