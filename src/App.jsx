@@ -1376,6 +1376,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-4-16",
   },
+                 {
+    id: "app-107",
+    name: "やる気復活ボタン",
+    tagline: "やる気",
+    description: "ボタン",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-yazvcxybcve9afbhz5dqmb.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-4-17",
+  },
 
 ];
 
@@ -2330,6 +2343,15 @@ const POSTS = [
     date: "2026-4-16", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nd4f2962342a5?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-107",
+    title: "やる気復活ボタンを公開しました",
+    // 公開した日
+    date: "2026-4-17", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n50fa074c106b?app_launch=false",
     tags: ["DevLog"],
   },
 ];
