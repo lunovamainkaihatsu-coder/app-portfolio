@@ -1402,6 +1402,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-4-18",
   },
+                 {
+    id: "app-109",
+    name: "応援モード",
+    tagline: "応援",
+    description: "モード",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-fgngrtp5qqxykfpx2ukhwk.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-4-19",
+  },
 ];
 
 const POSTS = [
@@ -2373,6 +2386,15 @@ const POSTS = [
     date: "2026-4-18", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nb6ea5ca13ed1?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-109",
+    title: "今日の応援モードを公開しました",
+    // 公開した日
+    date: "2026-4-19", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n721df022200f?app_launch=false",
     tags: ["DevLog"],
   },
 ];
