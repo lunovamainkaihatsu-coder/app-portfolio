@@ -1415,6 +1415,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-4-19",
   },
+                 {
+    id: "app-110",
+    name: "今日の一言称号",
+    tagline: "今日の",
+    description: "称号",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-ydx9b96agsq7efiqow2ys8.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-4-20",
+  },
 ];
 
 const POSTS = [
@@ -2395,6 +2408,15 @@ const POSTS = [
     date: "2026-4-19", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n721df022200f?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-110",
+    title: "今日の一言称号を公開しました",
+    // 公開した日
+    date: "2026-4-20", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n83252dbf04a8?app_launch=false",
     tags: ["DevLog"],
   },
 ];
