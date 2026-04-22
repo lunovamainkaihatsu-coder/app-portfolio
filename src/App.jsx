@@ -1441,6 +1441,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-4-21",
   },
+                 {
+    id: "app-112",
+    name: "今日の気分アイコン",
+    tagline: "今日の",
+    description: "気分",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-bqtdrpfay2tjbfqbduzjf4.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-4-22",
+  },
 ];
 
 const POSTS = [
@@ -2439,6 +2452,15 @@ const POSTS = [
     date: "2026-4-21", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n232ecb89c706?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-112",
+    title: "今日の気分アイコンを公開しました",
+    // 公開した日
+    date: "2026-4-22", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n5f4835885df7?app_launch=false",
     tags: ["DevLog"],
   },
 ];
