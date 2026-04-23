@@ -1454,6 +1454,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-4-22",
   },
+                 {
+    id: "app-113",
+    name: "今日の一言回復薬",
+    tagline: "今日の",
+    description: "回復薬",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-3y8czxd8vhzsmd6sscdvry.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-4-23",
+  },
 ];
 
 const POSTS = [
@@ -2461,6 +2474,15 @@ const POSTS = [
     date: "2026-4-22", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n5f4835885df7?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-113",
+    title: "今日の一言回復薬を公開しました",
+    // 公開した日
+    date: "2026-4-23", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/notes/n42a743b66f8d/landing",
     tags: ["DevLog"],
   },
 ];
