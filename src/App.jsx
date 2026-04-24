@@ -1467,6 +1467,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-4-23",
   },
+                 {
+    id: "app-114",
+    name: "ごきげんガチャ",
+    tagline: "ごきげん",
+    description: "ガチャ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-gtxrcmbanavpw7zzzhjnow.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-4-24",
+  },
 ];
 
 const POSTS = [
@@ -2483,6 +2496,15 @@ const POSTS = [
     date: "2026-4-23", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/notes/n42a743b66f8d/landing",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-114",
+    title: "ごきげんガチャを公開しました",
+    // 公開した日
+    date: "2026-4-24", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n3646eff3d572",
     tags: ["DevLog"],
   },
 ];
