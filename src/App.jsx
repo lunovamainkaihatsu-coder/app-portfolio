@@ -1480,6 +1480,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-4-24",
   },
+                 {
+    id: "app-115",
+    name: "ひとこと冒険イベント",
+    tagline: "ひとこと",
+    description: "イベント",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-5tmfkdfo8iwffjz6apq42k.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-4-25",
+  },
 ];
 
 const POSTS = [
@@ -2505,6 +2518,15 @@ const POSTS = [
     date: "2026-4-24", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n3646eff3d572",
+    tags: ["DevLog"],
+  },
+     {
+    id: "note-115",
+    title: "今日のひとこと冒険イベントを公開しました",
+    // 公開した日
+    date: "2026-4-25", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/notes/nfd97e60cdfb7/landing",
     tags: ["DevLog"],
   },
 ];
