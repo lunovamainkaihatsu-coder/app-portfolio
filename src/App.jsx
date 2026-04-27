@@ -1519,6 +1519,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-4-27",
   },
+                 {
+    id: "app-118",
+    name: "名言・メモ保管庫",
+    tagline: "名言",
+    description: "記録",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-btweufj4pwlzhzvfsr6kd6.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-4-28",
+  },
 ];
 
 const POSTS = [
@@ -2571,6 +2584,15 @@ const POSTS = [
     date: "2026-4-27", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nfe79aad69e7c?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-118",
+    title: "名言・メモ記録アプリを公開しました",
+    // 公開した日
+    date: "2026-4-28", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n628081909193?app_launch=false",
     tags: ["DevLog"],
   },
 ];
