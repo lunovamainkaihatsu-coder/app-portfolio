@@ -1506,6 +1506,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-4-26",
   },
+                 {
+    id: "app-117",
+    name: "読書記録アプリ",
+    tagline: "読書",
+    description: "記録",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-cjtqg87k7f9m4ljhqfvzpe.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-4-27",
+  },
 ];
 
 const POSTS = [
@@ -2549,6 +2562,15 @@ const POSTS = [
     date: "2026-4-26", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nbf837e9ff8e6?app_launch=false",
+    tags: ["DevLog"],
+  },
+     {
+    id: "note-117",
+    title: "読書記録アプリを公開しました",
+    // 公開した日
+    date: "2026-4-27", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nfe79aad69e7c?app_launch=false",
     tags: ["DevLog"],
   },
 ];
