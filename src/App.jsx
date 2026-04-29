@@ -1532,6 +1532,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-4-28",
   },
+                 {
+    id: "app-119",
+    name: "学び・アクション化ボタン",
+    tagline: "学習",
+    description: "アクション",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-8dqjpzsivvkvjuupdjrgtq.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-4-29",
+  },
 ];
 
 const POSTS = [
@@ -2593,6 +2606,15 @@ const POSTS = [
     date: "2026-4-28", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n628081909193?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-119",
+    title: "学びアクション化ボタンを公開しました",
+    // 公開した日
+    date: "2026-4-29", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n19b1b004bb7c?app_launch=false",
     tags: ["DevLog"],
   },
 ];
