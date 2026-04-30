@@ -1545,6 +1545,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-4-29",
   },
+                 {
+    id: "app-120",
+    name: "やること整理ボード",
+    tagline: "整理",
+    description: "ボード",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-jvaxrwudxka89s3rm7ffbk.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-4-30",
+  },
 ];
 
 const POSTS = [
@@ -2615,6 +2628,15 @@ const POSTS = [
     date: "2026-4-29", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n19b1b004bb7c?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-120",
+    title: "やること整理ボードを公開しました",
+    // 公開した日
+    date: "2026-4-30", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n8b6dffb535a7?app_launch=false",
     tags: ["DevLog"],
   },
 ];
