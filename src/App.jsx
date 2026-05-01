@@ -1558,6 +1558,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-4-30",
   },
+                {
+    id: "app-121",
+    name: "習慣チェック表",
+    tagline: "習慣チェック表",
+    description: "習慣チェック表",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-8jsslaagqgrehsd63hdr7n.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-5-1",
+  },
 ];
 
 const POSTS = [
@@ -2637,6 +2650,15 @@ const POSTS = [
     date: "2026-4-30", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n8b6dffb535a7?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-121",
+    title: "習慣チェック表を公開しました",
+    // 公開した日
+    date: "2026-5-1", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n4ab9bf28a2a3?app_launch=false",
     tags: ["DevLog"],
   },
 ];
