@@ -1597,6 +1597,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-5-3",
   },
+                {
+    id: "app-124",
+    name: "習慣ボス戦",
+    tagline: "習慣ボス戦",
+    description: "",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-xgbfwpdjkgxtunxrl7czhs.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-5-4",
+  },
 ];
 
 const POSTS = [
@@ -2703,6 +2716,15 @@ const POSTS = [
     date: "2026-5-3", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/notes/n74b5607456c5/landing",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-124",
+    title: "習慣ボスを公開しました",
+    // 公開した日
+    date: "2026-5-4", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n0ce55f31db2b?app_launch=false",
     tags: ["DevLog"],
   },
 ];
