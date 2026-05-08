@@ -1649,6 +1649,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-5-7",
   },
+                {
+    id: "app-128",
+    name: "五月病リカバリーモード",
+    tagline: "五月病リカバリーモード",
+    description: "五月病リカバリーモード",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-jgskofgmdjtj6fpyym5qxf.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-5-8",
+  },
 ];
 
 const POSTS = [
@@ -2791,6 +2804,15 @@ const POSTS = [
     date: "2026-5-7", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n54a33ad3e3e5?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-128",
+    title: "五月病リカバリーモードを公開しました",
+    // 公開した日
+    date: "2026-5-8", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n388885c89385?app_launch=false",
     tags: ["DevLog"],
   },
 ];
