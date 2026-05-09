@@ -1662,6 +1662,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-5-8",
   },
+                {
+    id: "app-129",
+    name: "脳内ごちゃごちゃ整理メモ",
+    tagline: "脳内ごちゃごちゃ整理メモ",
+    description: "脳内ごちゃごちゃ整理メモ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-r3swdhxw2pqqkk3wus4ul9.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-5-9",
+  },
 ];
 
 const POSTS = [
@@ -2813,6 +2826,15 @@ const POSTS = [
     date: "2026-5-8", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n388885c89385?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-129",
+    title: "脳内ごちゃごちゃ整理メモを公開しました",
+    // 公開した日
+    date: "2026-5-9", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n262c48f75c84?app_launch=false",
     tags: ["DevLog"],
   },
 ];
