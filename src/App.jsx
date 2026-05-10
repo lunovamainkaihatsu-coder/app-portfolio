@@ -1675,6 +1675,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-5-9",
   },
+                {
+    id: "app-130",
+    name: "ルナの作戦会議室",
+    tagline: "ルナの作戦会議室",
+    description: "ルナの作戦会議室",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-ypcs2humyhkc56nwwt5lxs.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-5-10",
+  },
 ];
 
 const POSTS = [
@@ -2835,6 +2848,15 @@ const POSTS = [
     date: "2026-5-9", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n262c48f75c84?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-130",
+    title: "ルナの作戦会議室を公開しました",
+    // 公開した日
+    date: "2026-5-10", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/notes/n4e804cd47d1a/landing",
     tags: ["DevLog"],
   },
 ];
