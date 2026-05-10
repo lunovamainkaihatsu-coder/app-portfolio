@@ -1688,6 +1688,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-5-10",
   },
+                {
+    id: "app-131",
+    name: "小さな勝利ログ",
+    tagline: "小さな勝利ログ",
+    description: "小さな勝利ログ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-ha3ytld3vyz3ewmkkg3puy.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-5-11",
+  },
 ];
 
 const POSTS = [
@@ -2857,6 +2870,15 @@ const POSTS = [
     date: "2026-5-10", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/notes/n4e804cd47d1a/landing",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-131",
+    title: "小さな勝利ログを公開しました",
+    // 公開した日
+    date: "2026-5-11", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n273fecb6f069?app_launch=false",
     tags: ["DevLog"],
   },
 ];
