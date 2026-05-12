@@ -1701,6 +1701,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-5-11",
   },
+                {
+    id: "app-131",
+    name: "気力ゲージ",
+    tagline: "気力ゲージ",
+    description: "気力ゲージ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-dzxjuadnh8xc5hffqqkzyj.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-5-12",
+  },
 ];
 
 const POSTS = [
@@ -2879,6 +2892,15 @@ const POSTS = [
     date: "2026-5-11", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n273fecb6f069?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-132",
+    title: "気力ゲージを公開しました",
+    // 公開した日
+    date: "2026-5-12", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n75c0d08a02fd?app_launch=false",
     tags: ["DevLog"],
   },
 ];
