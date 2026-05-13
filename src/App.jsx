@@ -1727,6 +1727,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-5-13",
   },
+                {
+    id: "app-134",
+    name: "食事管理ログ",
+    tagline: "食事管理ログ",
+    description: "食事管理ログ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-ryu8qszsdt74wwpysfg2dg.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-5-14",
+  },
 ];
 
 const POSTS = [
@@ -2923,6 +2936,15 @@ const POSTS = [
     date: "2026-5-13", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nfdd0833b1cf4?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-134",
+    title: "食事管理ログを公開しました",
+    // 公開した日
+    date: "2026-5-14", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n556dd93b5848?app_launch=false",
     tags: ["DevLog"],
   },
 ];
