@@ -1740,6 +1740,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-5-14",
   },
+                {
+    id: "app-135",
+    name: "たんぱく質チェッカー",
+    tagline: "たんぱく質チェッカー",
+    description: "たんぱく質チェッカー",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-7a8smpxjl7loascxsuacj9.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-5-15",
+  },
 ];
 
 const POSTS = [
@@ -2945,6 +2958,15 @@ const POSTS = [
     date: "2026-5-14", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n556dd93b5848?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-135",
+    title: "タンパク質チェッカーを公開しました",
+    // 公開した日
+    date: "2026-5-15", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n808acdfa58ef?app_launch=false",
     tags: ["DevLog"],
   },
 ];
