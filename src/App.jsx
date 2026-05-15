@@ -1753,6 +1753,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-5-15",
   },
+                {
+    id: "app-136",
+    name: "筋トレ記録ログ",
+    tagline: "筋トレ記録ログ",
+    description: "筋トレ記録ログ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-gfgdafu7qjwfqx9tmvkvqn.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-5-16",
+  },
 ];
 
 const POSTS = [
@@ -2967,6 +2980,15 @@ const POSTS = [
     date: "2026-5-15", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n808acdfa58ef?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-136",
+    title: "筋トレ記録ログを公開しました",
+    // 公開した日
+    date: "2026-5-16", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n51253f612201?app_launch=false",
     tags: ["DevLog"],
   },
 ];
