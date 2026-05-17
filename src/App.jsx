@@ -1766,6 +1766,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-5-16",
   },
+                {
+    id: "app-137体重・体脂肪・BMI管理ログ",
+    name: "体重・体脂肪・BMI管理ログ",
+    tagline: "体重・体脂肪・BMI管理ログ",
+    description: "体重・体脂肪・BMI管理ログ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-jkxen82cxqfmf2n9jn66rq.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-5-17",
+  },
 ];
 
 const POSTS = [
@@ -2989,6 +3002,15 @@ const POSTS = [
     date: "2026-5-16", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n51253f612201?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-137",
+    title: "体重・体脂肪・BMI管理ログを公開しました",
+    // 公開した日
+    date: "2026-5-17", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n4a6947ec4f9d?app_launch=false",
     tags: ["DevLog"],
   },
 ];
