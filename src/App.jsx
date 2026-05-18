@@ -1792,6 +1792,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-5-18",
   },
+                {
+    id: "app-139",
+    name: "水分補給ログ",
+    tagline: "水分",
+    description: "ログ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-2z3an8pwfafavmlog8aumm.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-5-19",
+  },
 ];
 
 const POSTS = [
@@ -3033,6 +3046,15 @@ const POSTS = [
     date: "2026-5-18", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n776e165c4230?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-139",
+    title: "水分補給ログを公開しました",
+    // 公開した日
+    date: "2026-5-19", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nd9461a922292?app_launch=false",
     tags: ["DevLog"],
   },
 ];
