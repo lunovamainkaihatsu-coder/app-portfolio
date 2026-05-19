@@ -1805,6 +1805,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-5-19",
   },
+                {
+    id: "app-140",
+    name: "筋トレ提案アプリ",
+    tagline: "筋トレ",
+    description: "提案",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-5-20",
+  },
 ];
 
 const POSTS = [
@@ -3055,6 +3068,15 @@ const POSTS = [
     date: "2026-5-19", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nd9461a922292?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-140",
+    title: "筋トレ提案アプリを公開しました",
+    // 公開した日
+    date: "2026-5-20", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n3d040a04651b?app_launch=false",
     tags: ["DevLog"],
   },
 ];
