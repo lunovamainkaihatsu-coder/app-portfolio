@@ -1818,6 +1818,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-5-20",
   },
+                {
+    id: "app-141",
+    name: "ストレッチ提案アプリ",
+    tagline: "ストレッチ",
+    description: "提案",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-gnvodt3pbr9mr4tgdtpmew.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-5-20",
+  },
 ];
 
 const POSTS = [
@@ -3077,6 +3090,15 @@ const POSTS = [
     date: "2026-5-20", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n3d040a04651b?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-141",
+    title: "ストレッチ提案アプリを公開しました",
+    // 公開した日
+    date: "2026-5-21", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n0ae40d692b7c?app_launch=false",
     tags: ["DevLog"],
   },
 ];
