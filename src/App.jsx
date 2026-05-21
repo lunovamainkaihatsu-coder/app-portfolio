@@ -1829,7 +1829,20 @@ const APPS = [
     tags: ["Web"],
     status: "公開中",
     // 今日の日付などに更新
-    updatedAt: "2026-5-20",
+    updatedAt: "2026-5-21",
+  },
+                {
+    id: "app-142",
+    name: "回復行動ログ",
+    tagline: "回復",
+    description: "行動ログ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-h8ufqs9ikisamphfabghpm.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-5-22",
   },
 ];
 
@@ -3099,6 +3112,15 @@ const POSTS = [
     date: "2026-5-21", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n0ae40d692b7c?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-142",
+    title: "回復行動ログアプリを公開しました",
+    // 公開した日
+    date: "2026-5-22", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/ne5ef845680fa?app_launch=false",
     tags: ["DevLog"],
   },
 ];
