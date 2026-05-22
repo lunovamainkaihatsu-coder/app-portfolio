@@ -1844,6 +1844,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-5-22",
   },
+                {
+    id: "app-143",
+    name: "気分回復ガチャ",
+    tagline: "気分回復",
+    description: "ガチャ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-a6ihmfin7ane8rhngp3mqz.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-5-23",
+  },
 ];
 
 const POSTS = [
@@ -3121,6 +3134,15 @@ const POSTS = [
     date: "2026-5-22", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/ne5ef845680fa?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-143",
+    title: "気分回復ガチャを公開しました",
+    // 公開した日
+    date: "2026-5-23", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n243f8c1596ed?app_launch=false",
     tags: ["DevLog"],
   },
 ];
