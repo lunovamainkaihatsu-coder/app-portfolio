@@ -1857,6 +1857,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-5-23",
   },
+                {
+    id: "app-144",
+    name: "忘れ物チェックアプリ",
+    tagline: "忘れ物チェックアプリ",
+    description: "忘れ物チェックアプリ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-h8rncwkdqbbwkk5uys7yxn.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-5-24",
+  },
 ];
 
 const POSTS = [
@@ -3143,6 +3156,15 @@ const POSTS = [
     date: "2026-5-23", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n243f8c1596ed?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-144",
+    title: "忘れ物チェックアプリを公開しました",
+    // 公開した日
+    date: "2026-5-24", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n39a2f3c423c5?app_launch=false",
     tags: ["DevLog"],
   },
 ];
