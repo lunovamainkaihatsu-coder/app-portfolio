@@ -1923,6 +1923,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-5-28",
   },
+    {
+    id: "app-149",
+    name: "気持ち切り替えスイッチ",
+    tagline: "気持ち切り替えスイッチ",
+    description: "気持ち切り替えスイッチ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-m6mrbi5cthg4nupa9zca6d.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-5-29",
+  },
 ];
 
 
@@ -3250,11 +3263,20 @@ const POSTS = [
   },
     {
     id: "note-148",
+    title: "気持ち切り替えスイッチを公開しました",
+    // 公開した日
+    date: "2026-5-29", 
+    // ↓ここを記事のURLに変える
+    url: "",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-149",
     title: "ありがとうログを公開しました",
     // 公開した日
-    date: "2026-5-28", 
+    date: "2026-5-29", 
     // ↓ここを記事のURLに変える
-    url: "https://note.com/lunova_create/n/n0ce92fc718ec?app_launch=false",
+    url: "https://note.com/lunova_create/n/n6c6ae2244d96?app_launch=false",
     tags: ["DevLog"],
   },
 ];
