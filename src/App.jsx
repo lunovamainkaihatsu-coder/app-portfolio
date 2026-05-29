@@ -1936,6 +1936,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-5-29",
   },
+    {
+    id: "app-150",
+    name: "会話のタネメーカー",
+    tagline: "会話のタネメーカー",
+    description: "会話のタネメーカー",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-ajm4y445jslhvxzvuhydrs.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-5-30",
+  },
 ];
 
 
@@ -3277,6 +3290,15 @@ const POSTS = [
     date: "2026-5-29", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n6c6ae2244d96?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-150",
+    title: "会話のタネメーカーを公開しました",
+    // 公開した日
+    date: "2026-5-30", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n9ea9532ad28e?app_launch=false",
     tags: ["DevLog"],
   },
 ];
