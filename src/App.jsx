@@ -1949,6 +1949,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-5-30",
   },
+    {
+    id: "app-151",
+    name: "今日のクエスト掲示板",
+    tagline: "今日のクエスト掲示板",
+    description: "今日のクエスト掲示板",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-gf2mp6ucmrmqybcn3b9tvn.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-5-31",
+  },
 ];
 
 
@@ -3299,6 +3312,15 @@ const POSTS = [
     date: "2026-5-30", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n9ea9532ad28e?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-151",
+    title: "今日のクエスト掲示板を公開しました",
+    // 公開した日
+    date: "2026-5-31", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nb5ea03b91555?app_launch=false",
     tags: ["DevLog"],
   },
 ];
