@@ -1975,6 +1975,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-6-1",
   },
+    {
+    id: "app-152",
+    name: "習慣図鑑",
+    tagline: "習慣図鑑",
+    description: "習慣図鑑",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://lunovamainkaihatsu-coder-ma-day153-habit-encyclopediaapp-vx3ao9.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-6-2",
+  },
 ];
 
 
@@ -3343,6 +3356,15 @@ const POSTS = [
     date: "2026-6-1", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nbaa54f782766?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-153",
+    title: "習慣図鑑を公開しました",
+    // 公開した日
+    date: "2026-6-2", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nf7f1edbf0140?app_launch=false",
     tags: ["DevLog"],
   },
 ];
