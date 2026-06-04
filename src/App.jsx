@@ -2014,6 +2014,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-6-4",
   },
+    {
+    id: "app-156",
+    name: "AIアプリ図鑑",
+    tagline: "AIアプリ図鑑",
+    description: "AIアプリ図鑑",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-7hcqxye5vfvbm6lcn7ox2t.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-6-5",
+  },
 ];
 
 
@@ -3409,6 +3422,15 @@ const POSTS = [
     date: "2026-6-4", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n4ece8e88dc06?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-156",
+    title: "AIアプリ図鑑を公開しました",
+    // 公開した日
+    date: "2026-6-5", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n5f1d3bc44b77?app_launch=false",
     tags: ["DevLog"],
   },
 ];
