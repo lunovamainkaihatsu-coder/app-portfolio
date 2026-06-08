@@ -2066,6 +2066,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-6-8",
   },
+    {
+    id: "app-160",
+    name: "ビジョンボードメモ",
+    tagline: "ビジョンボードメモ",
+    description: "ビジョンボードメモ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-g2kyuuxsgcmgxp9gyvxvz8.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-6-9",
+  },
 ];
 
 
@@ -3497,6 +3510,15 @@ const POSTS = [
     date: "2026-6-8", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/neeff3ad06b88?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-160",
+    title: "ビジョンボードメモを公開しました",
+    // 公開した日
+    date: "2026-6-9", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n4aa4156b8d3f?app_launch=false",
     tags: ["DevLog"],
   },
 ];
