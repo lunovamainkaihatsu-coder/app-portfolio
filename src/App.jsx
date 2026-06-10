@@ -2092,6 +2092,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-6-10",
   },
+    {
+    id: "app-162",
+    name: "割引計算シミュレーター",
+    tagline: "割引計算シミュレーター",
+    description: "割引計算シミュレーター",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-8wykurvq9m3cr82ryy6pub.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-6-11",
+  },
 ];
 
 
@@ -3541,6 +3554,15 @@ const POSTS = [
     date: "2026-6-10", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n6a740ca674bd?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-161",
+    title: "割引計算シミュレーターを公開しました",
+    // 公開した日
+    date: "2026-6-11", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nff486e674db7?app_launch=false",
     tags: ["DevLog"],
   },
 ];
