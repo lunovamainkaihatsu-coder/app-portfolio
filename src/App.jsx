@@ -2105,6 +2105,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-6-11",
   },
+    {
+    id: "app-163",
+    name: "割り勘メーカー",
+    tagline: "割り勘メーカー",
+    description: "割り勘メーカー",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-kzv8vkgwxhgw6tfwjriyjm.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-6-12",
+  },
 ];
 
 
@@ -3557,12 +3570,21 @@ const POSTS = [
     tags: ["DevLog"],
   },
     {
-    id: "note-161",
+    id: "note-162",
     title: "割引計算シミュレーターを公開しました",
     // 公開した日
     date: "2026-6-11", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nff486e674db7?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-163",
+    title: "割り勘メーカーを公開しました",
+    // 公開した日
+    date: "2026-6-12", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n9ee80dcce761?app_launch=false",
     tags: ["DevLog"],
   },
 ];
