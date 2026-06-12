@@ -2118,6 +2118,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-6-12",
   },
+    {
+    id: "app-164",
+    name: "サブスク管理帳",
+    tagline: "サブスク管理帳",
+    description: "サブスク管理帳",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-6-13",
+  },
 ];
 
 
@@ -3585,6 +3598,15 @@ const POSTS = [
     date: "2026-6-12", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n9ee80dcce761?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-164",
+    title: "サブスク管理を公開しました",
+    // 公開した日
+    date: "2026-6-13", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nbc574824cac2",
     tags: ["DevLog"],
   },
 ];
