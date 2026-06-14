@@ -2124,6 +2124,20 @@ const APPS = [
     tagline: "サブスク管理帳",
     description: "サブスク管理帳",
     // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-erd9wymxzyuox42xi8qdxe.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-6-13",
+  },
+];
+    {
+    id: "app-165",
+    name: "収益化チャレンジ管理",
+    tagline: "収益化チャレンジ管理",
+    description: "収益化チャレンジ管理",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
     url: "",
     repo: "",
     tags: ["Web"],
@@ -3609,7 +3623,18 @@ const POSTS = [
     url: "https://note.com/lunova_create/n/nbc574824cac2",
     tags: ["DevLog"],
   },
+    {
+    id: "note-165",
+    title: "収益化チャレンジ管理を公開しました",
+    // 公開した日
+    date: "2026-6-14", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nde42e7f8e631?app_launch=false",
+    tags: ["DevLog"],
+  },
 ];
+];
+      
 // =====================================================
 
 export default function AppPortfolio() {
