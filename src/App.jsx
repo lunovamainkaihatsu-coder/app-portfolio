@@ -2145,6 +2145,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-6-13",
   },
+    {
+    id: "app-166",
+    name: "今日の一歩メーカー",
+    tagline: "今日の一歩メーカー",
+    description: "今日の一歩メーカー",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-mzwshj9x3rkq5dbeeyqc7j.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-6-15",
+  },
 ];
 
 
@@ -3632,7 +3645,15 @@ const POSTS = [
     url: "https://note.com/lunova_create/n/nde42e7f8e631?app_launch=false",
     tags: ["DevLog"],
   },
-];
+    {
+    id: "note-166",
+    title: "今日の一歩メーカーを公開しました",
+    // 公開した日
+    date: "2026-6-15", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/ncb9571b87a8b?app_launch=false",
+    tags: ["DevLog"],
+  },
 ];
       
 // =====================================================
