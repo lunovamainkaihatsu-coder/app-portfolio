@@ -2158,6 +2158,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-6-15",
   },
+    {
+    id: "app-167",
+    name: "1日100円節約チャレンジ",
+    tagline: "1日100円節約チャレンジ",
+    description: "1日100円節約チャレンジ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-gyyaycuyrf6hwwejveql3d.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-6-16",
+  },
 ];
 
 
@@ -3652,6 +3665,15 @@ const POSTS = [
     date: "2026-6-15", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/ncb9571b87a8b?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-167",
+    title: "1日100円節約チャレンジを公開しました",
+    // 公開した日
+    date: "2026-6-16", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n28f43ac2b6e3?app_launch=false",
     tags: ["DevLog"],
   },
 ];
