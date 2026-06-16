@@ -2171,6 +2171,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-6-16",
   },
+    {
+    id: "app-168",
+    name: "買うか悩むチェッカー",
+    tagline: "買うか悩むチェッカー",
+    description: "買うか悩むチェッカー",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-tqrprnpvr2i949cyr2egdn.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-6-17",
+  },
 ];
 
 
@@ -3674,6 +3687,15 @@ const POSTS = [
     date: "2026-6-16", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n28f43ac2b6e3?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-168",
+    title: "買うか悩むチェッカーを公開しました",
+    // 公開した日
+    date: "2026-6-17", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n2c4005914084?app_launch=false",
     tags: ["DevLog"],
   },
 ];
