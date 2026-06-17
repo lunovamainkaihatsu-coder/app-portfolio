@@ -2184,6 +2184,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-6-17",
   },
+    {
+    id: "app-169",
+    name: "冷蔵庫メモ",
+    tagline: "冷蔵庫メモ",
+    description: "冷蔵庫メモ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-ntihbamocgnhoybgoeu42e.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-6-17",
+  },
 ];
 
 
@@ -3696,6 +3709,15 @@ const POSTS = [
     date: "2026-6-17", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n2c4005914084?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-169",
+    title: "冷蔵庫メモを公開しました",
+    // 公開した日
+    date: "2026-6-18", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n4c5260b7f795?app_launch=false",
     tags: ["DevLog"],
   },
 ];
