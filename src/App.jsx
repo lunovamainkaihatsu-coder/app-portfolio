@@ -2197,6 +2197,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-6-17",
   },
+    {
+    id: "app-170",
+    name: "買い物リストメーカー",
+    tagline: "買い物リストメーカー",
+    description: "買い物リストメーカー",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-6-17",
+  },
 ];
 
 
@@ -3718,6 +3731,15 @@ const POSTS = [
     date: "2026-6-18", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n4c5260b7f795?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-170",
+    title: "買い物リストメーカーを公開しました",
+    // 公開した日
+    date: "2026-6-19", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n7ea5a9e701ab?app_launch=false",
     tags: ["DevLog"],
   },
 ];
