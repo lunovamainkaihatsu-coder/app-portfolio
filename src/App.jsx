@@ -2210,6 +2210,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-6-17",
   },
+    {
+    id: "app-171",
+    name: "あるもので献立メーカー",
+    tagline: "あるもので献立メーカー",
+    description: "あるもので献立メーカー",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-lon25tgf3h6rkmqipfchdp.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-6-20",
+  },
 ];
 
 
@@ -3740,6 +3753,15 @@ const POSTS = [
     date: "2026-6-19", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n7ea5a9e701ab?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-171",
+    title: "あるもので献立メーカーを公開しました",
+    // 公開した日
+    date: "2026-6-20", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n5a2357012318?app_launch=false",
     tags: ["DevLog"],
   },
 ];
