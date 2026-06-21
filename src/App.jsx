@@ -2236,6 +2236,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-6-21",
   },
+    {
+    id: "app-173",
+    name: "水分補給トラッカー",
+    tagline: "水分補給トラッカー",
+    description: "水分補給トラッカー",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-qbjgg59f9qptzbcdgnwiue.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-6-22",
+  },
 ];
 
 
@@ -3784,6 +3797,15 @@ const POSTS = [
     date: "2026-6-21", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n7ec7f49a50e5?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-173",
+    title: "水分補給トラッカーを公開しました",
+    // 公開した日
+    date: "2026-6-22", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nc309cf59bf86",
     tags: ["DevLog"],
   },
 ];
