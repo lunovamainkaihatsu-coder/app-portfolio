@@ -2223,6 +2223,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-6-20",
   },
+    {
+    id: "app-172",
+    name: "栄養バランスチェッカー",
+    tagline: "栄養バランスチェッカー",
+    description: "栄養バランスチェッカー",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-vxynwadtdutfia6q7tqcd2.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-6-21",
+  },
 ];
 
 
@@ -3762,6 +3775,15 @@ const POSTS = [
     date: "2026-6-20", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n5a2357012318?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-172",
+    title: "栄養バランスチェッカ－を公開しました",
+    // 公開した日
+    date: "2026-6-21", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n7ec7f49a50e5?app_launch=false",
     tags: ["DevLog"],
   },
 ];
