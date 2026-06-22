@@ -2249,6 +2249,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-6-22",
   },
+    {
+    id: "app-174",
+    name: "体重管理グラフ",
+    tagline: "体重管理グラフ",
+    description: "体重管理グラフ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-gydhpmbmrp3j5zpxgmuncc.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-6-23",
+  },
 ];
 
 
@@ -3806,6 +3819,15 @@ const POSTS = [
     date: "2026-6-22", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nc309cf59bf86",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-174",
+    title: "体重管理グラフを公開しました",
+    // 公開した日
+    date: "2026-6-23", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n7e40b85bf98b?app_launch=false",
     tags: ["DevLog"],
   },
 ];
