@@ -2262,6 +2262,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-6-23",
   },
+    {
+    id: "app-175",
+    name: "健康ポイントシステム",
+    tagline: "健康ポイントシステム",
+    description: "健康ポイントシステム",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-wwpkcbx5j7seotzkzabaak.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-6-24",
+  },
 ];
 
 
@@ -3828,6 +3841,15 @@ const POSTS = [
     date: "2026-6-23", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n7e40b85bf98b?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-175",
+    title: "健康ポイントシステムを公開しました",
+    // 公開した日
+    date: "2026-6-24", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n79e517f373b6?app_launch=false",
     tags: ["DevLog"],
   },
 ];
