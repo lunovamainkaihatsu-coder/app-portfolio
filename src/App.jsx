@@ -2275,6 +2275,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-6-24",
   },
+    {
+    id: "app-176",
+    name: "睡眠記録帳",
+    tagline: "睡眠記録帳",
+    description: "睡眠記録帳",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-jcvmbhhmx7menx5vkx2cst.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-6-25",
+  },
 ];
 
 
@@ -3850,6 +3863,15 @@ const POSTS = [
     date: "2026-6-24", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n79e517f373b6?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-176",
+    title: "睡眠記録超を公開しました",
+    // 公開した日
+    date: "2026-6-25", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/na8c6dcc4dcf2?app_launch=false",
     tags: ["DevLog"],
   },
 ];
