@@ -2301,6 +2301,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-6-26",
   },
+      {
+    id: "app-178",
+    name: "人生ステータスRPG",
+    tagline: "人生ステータスRPG",
+    description: "人生ステータスRPG",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitigohan-uqtisfcfs4pdbgtgiytrox.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-6-27",
+  },
 ];
 
 
@@ -3892,6 +3905,15 @@ const POSTS = [
     title: "筋トレ記録帳を公開しました",
     // 公開した日
     date: "2026-6-26", 
+    // ↓ここを記事のURLに変える
+    url: "",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-178",
+    title: "人生ステータスRPGを公開しました",
+    // 公開した日
+    date: "2026-6-27", 
     // ↓ここを記事のURLに変える
     url: "",
     tags: ["DevLog"],
