@@ -2327,6 +2327,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-6-28",
   },
+      {
+    id: "app-180",
+    name: "貯金目標メーカー",
+    tagline: "貯金目標メーカー",
+    description: "貯金目標メーカー",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-zfivhfz5shhejdapkfrwxb.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-6-28",
+  },
 ];
 
 
@@ -3938,6 +3951,15 @@ const POSTS = [
     date: "2026-6-28", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n989cd458ce84?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-180",
+    title: "貯金目標メーカーを公開しました",
+    // 公開した日
+    date: "2026-6-29", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n65c373056c71?app_launch=false",
     tags: ["DevLog"],
   },
 ];
