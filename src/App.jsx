@@ -2314,6 +2314,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-6-27",
   },
+      {
+    id: "app-179",
+    name: "所持金・支出ログ",
+    tagline: "所持金・支出ログ",
+    description: "所持金・支出ログ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-zfivhfz5shhejdapkfrwxb.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-6-28",
+  },
 ];
 
 
@@ -3916,6 +3929,15 @@ const POSTS = [
     date: "2026-6-27", 
     // ↓ここを記事のURLに変える
     url: "",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-179",
+    title: "所持金・支出ログを公開しました",
+    // 公開した日
+    date: "2026-6-28", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n989cd458ce84?app_launch=false",
     tags: ["DevLog"],
   },
 ];
