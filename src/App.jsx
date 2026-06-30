@@ -2338,7 +2338,20 @@ const APPS = [
     tags: ["Web"],
     status: "公開中",
     // 今日の日付などに更新
-    updatedAt: "2026-6-28",
+    updatedAt: "2026-6-29",
+  },
+      {
+    id: "app-181",
+    name: "夢・目標ロードマップ",
+    tagline: "夢・目標ロードマップ",
+    description: "夢・目標ロードマップ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://todaystepapp-zxngxbraemqhsdmax7buh2.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-6-30",
   },
 ];
 
@@ -3960,6 +3973,15 @@ const POSTS = [
     date: "2026-6-29", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n65c373056c71?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-181",
+    title: "夢・目標ロードマップを公開しました",
+    // 公開した日
+    date: "2026-6-30", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n01ff2db21a96?app_launch=false",
     tags: ["DevLog"],
   },
 ];
