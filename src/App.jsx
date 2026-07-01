@@ -2366,6 +2366,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-7-1",
   },
+      {
+    id: "app-183",
+    name: "AIプロンプト管理帳",
+    tagline: "AIプロンプト管理帳",
+    description: "AIプロンプト管理帳",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-pdkn66mvlsswii7szjvj7a.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-7-2",
+  },
 ];
 
 
@@ -4004,6 +4017,15 @@ const POSTS = [
     date: "2026-7-1", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nfc1023b07cf4?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-183",
+    title: "AIプロンプト管理帳を公開しました",
+    // 公開した日
+    date: "2026-7-2", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nac7017f3fab5?app_launch=false",
     tags: ["DevLog"],
   },
 ];
