@@ -2353,6 +2353,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-6-30",
   },
+      {
+    id: "app-182",
+    name: "本棚管理アプリ",
+    tagline: "本棚管理アプリ",
+    description: "本棚管理アプリ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitigohan-iwdwnygenhfmtjkjfcpgst.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-7-1",
+  },
 ];
 
 
@@ -3982,6 +3995,15 @@ const POSTS = [
     date: "2026-6-30", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n01ff2db21a96?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-182",
+    title: "本棚管理アプリを公開しました",
+    // 公開した日
+    date: "2026-7-1", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nfc1023b07cf4?app_launch=false",
     tags: ["DevLog"],
   },
 ];
