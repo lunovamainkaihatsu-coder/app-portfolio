@@ -2405,6 +2405,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-7-4",
   },
+      {
+    id: "app-186",
+    name: "パスワード管理帳",
+    tagline: "パスワード管理帳",
+    description: "パスワード管理帳",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-zgublu5svhk3skwnhnfouv.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-7-5",
+  },
 ];
 
 
@@ -4070,6 +4083,15 @@ const POSTS = [
     date: "2026-7-4", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n863c11c3832a",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-186",
+    title: "パスワード管理帳を公開しました",
+    // 公開した日
+    date: "2026-7-5", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n46e967b9cc23?app_launch=false",
     tags: ["DevLog"],
   },
 ];
