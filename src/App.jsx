@@ -2418,6 +2418,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-7-5",
   },
+      {
+    id: "app-187",
+    name: "QRコードメーカー",
+    tagline: "QRコードメーカー",
+    description: "QRコードメーカー",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-pegled2gfg5mqkxuy67m5k.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-7-6",
+  },
 ];
 
 
@@ -4092,6 +4105,15 @@ const POSTS = [
     date: "2026-7-5", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n46e967b9cc23?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-187",
+    title: "QRコードメーカーを公開しました",
+    // 公開した日
+    date: "2026-7-6", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n0f5a3b2d510f?app_launch=false",
     tags: ["DevLog"],
   },
 ];
