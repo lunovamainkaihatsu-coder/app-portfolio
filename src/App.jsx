@@ -2431,6 +2431,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-7-6",
   },
+      {
+    id: "app-188",
+    name: "ファイル名一括リネーマー",
+    tagline: "ファイル名一括リネーマー",
+    description: "ファイル名一括リネーマー",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-ylxq9yghg4j3xewsrsy8vc.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-7-7",
+  },
 ];
 
 
@@ -4114,6 +4127,15 @@ const POSTS = [
     date: "2026-7-6", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n0f5a3b2d510f?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-188",
+    title: "ファイル名一括リネーマーを公開しました",
+    // 公開した日
+    date: "2026-7-7", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nf119abefa474?app_launch=false",
     tags: ["DevLog"],
   },
 ];
