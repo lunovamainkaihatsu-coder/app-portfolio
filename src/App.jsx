@@ -2444,6 +2444,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-7-7",
   },
+      {
+    id: "app-189",
+    name: "レシート管理帳",
+    tagline: "レシート管理帳",
+    description: "レシート管理帳",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-k5vyc6jgvhk66og5ra9dhb.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-7-8",
+  },
 ];
 
 
@@ -4136,6 +4149,15 @@ const POSTS = [
     date: "2026-7-7", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nf119abefa474?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-189",
+    title: "レシート管理帳を公開しました",
+    // 公開した日
+    date: "2026-7-8", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n1de1d792453e?app_launch=false",
     tags: ["DevLog"],
   },
 ];
