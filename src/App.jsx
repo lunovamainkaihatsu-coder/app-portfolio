@@ -2457,6 +2457,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-7-8",
   },
+      {
+    id: "app-190",
+    name: "保証書・購入品管理帳",
+    tagline: "保証書・購入品管理帳",
+    description: "保証書・購入品管理帳",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-hocnrdqgafr2jjrqxymqhe.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-7-9",
+  },
 ];
 
 
@@ -4158,6 +4171,15 @@ const POSTS = [
     date: "2026-7-8", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n1de1d792453e?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-190",
+    title: "保証書・購入品管理帳を公開しました",
+    // 公開した日
+    date: "2026-7-9", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nc4aa82905469?app_launch=false",
     tags: ["DevLog"],
   },
 ];
