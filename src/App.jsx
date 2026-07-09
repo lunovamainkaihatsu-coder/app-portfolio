@@ -2470,6 +2470,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-7-9",
   },
+      {
+    id: "app-191",
+    name: "在庫管理アプリ",
+    tagline: "在庫管理アプリ",
+    description: "在庫管理アプリ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-mzqbdgsyzf9fy9odt3trmx.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-7-10",
+  },
 ];
 
 
@@ -4180,6 +4193,15 @@ const POSTS = [
     date: "2026-7-9", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nc4aa82905469?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-191",
+    title: "在庫管理アプリを公開しました",
+    // 公開した日
+    date: "2026-7-10", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n6772982e7786?app_launch=false",
     tags: ["DevLog"],
   },
 ];
