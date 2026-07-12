@@ -2496,6 +2496,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-7-11",
   },
+      {
+    id: "app-193",
+    name: "賞味期限管理アプリ",
+    tagline: "賞味期限管理アプリ",
+    description: "賞味期限管理アプリ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-ikbndfgerbdyxedztxfuk6.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-7-12",
+  },
 ];
 
 
@@ -4224,6 +4237,15 @@ const POSTS = [
     date: "2026-7-11", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n272f86fcd8db?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-193",
+    title: "賞味期限管理アプリを公開しました",
+    // 公開した日
+    date: "2026-7-12", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n6c7099d1e8ed?app_launch=false",
     tags: ["DevLog"],
   },
 ];
