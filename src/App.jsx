@@ -2522,6 +2522,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-7-13",
   },
+      {
+    id: "app-195",
+    name: "ゴミ出し管理アプリ",
+    tagline: "ゴミ出し管理アプリ",
+    description: "ゴミ出し管理アプリ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-syapppqq7pnzarkbskteaam.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-7-14",
+  },
 ];
 
 
@@ -4268,6 +4281,15 @@ const POSTS = [
     date: "2026-7-13", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n0b4aab2f537e?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-195",
+    title: "ゴミ出し管理アプリを公開しました",
+    // 公開した日
+    date: "2026-7-14", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nebdb214c977c",
     tags: ["DevLog"],
   },
 ];
