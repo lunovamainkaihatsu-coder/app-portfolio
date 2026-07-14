@@ -2535,6 +2535,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-7-14",
   },
+      {
+    id: "app-196",
+    name: "植物管理アプリ",
+    tagline: "植物管理アプリ",
+    description: "植物管理アプリ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-fenhy7h6hpxetduybv4a95.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-7-15",
+  },
 ];
 
 
@@ -4290,6 +4303,15 @@ const POSTS = [
     date: "2026-7-14", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nebdb214c977c",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-196",
+    title: "植物管理アプリを公開しました",
+    // 公開した日
+    date: "2026-7-15", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n1ec234d06e42?app_launch=false",
     tags: ["DevLog"],
   },
 ];
