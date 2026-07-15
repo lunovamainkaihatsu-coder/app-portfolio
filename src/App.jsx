@@ -2548,6 +2548,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-7-15",
   },
+      {
+    id: "app-197",
+    name: "定期メンテナンス管理アプリ",
+    tagline: "定期メンテナンス管理アプリ",
+    description: "定期メンテナンス管理アプリ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-k3s64jetbawut8vcnk397n.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-7-16",
+  },
 ];
 
 
@@ -4312,6 +4325,15 @@ const POSTS = [
     date: "2026-7-15", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n1ec234d06e42?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-197",
+    title: "定期メンテナンス管理アプリを公開しました",
+    // 公開した日
+    date: "2026-7-16", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nc63a4589e378?app_launch=false",
     tags: ["DevLog"],
   },
 ];
