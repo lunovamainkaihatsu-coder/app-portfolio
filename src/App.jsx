@@ -2561,6 +2561,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-7-16",
   },
+      {
+    id: "app-198",
+    name: "習慣スタンプカード",
+    tagline: "習慣スタンプカード",
+    description: "習慣スタンプカード",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-ptjxcsf4az8wmtspwcx2xw.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-7-17",
+  },
 ];
 
 
@@ -4334,6 +4347,15 @@ const POSTS = [
     date: "2026-7-16", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nc63a4589e378?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-198",
+    title: "習慣スタンプカードを公開しました",
+    // 公開した日
+    date: "2026-7-17", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n98398812f3f1?app_launch=false",
     tags: ["DevLog"],
   },
 ];
