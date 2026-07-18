@@ -2574,6 +2574,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-7-17",
   },
+      {
+    id: "app-199",
+    name: "毎日アプリ開発ダッシュボード",
+    tagline: "毎日アプリ開発ダッシュボード",
+    description: "毎日アプリ開発ダッシュボード",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-plydhgetmpfwxmodrpt7dj.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-7-18",
+  },
 ];
 
 
@@ -4356,6 +4369,15 @@ const POSTS = [
     date: "2026-7-17", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n98398812f3f1?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-199",
+    title: "毎日アプリ開発ダッシュボード公開しました",
+    // 公開した日
+    date: "2026-7-18", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n34e95d321ec8?app_launch=false",
     tags: ["DevLog"],
   },
 ];
