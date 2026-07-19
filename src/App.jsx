@@ -2600,6 +2600,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-7-19",
   },
+      {
+    id: "app-201",
+    name: "開発ログAI",
+    tagline: "開発ログAI",
+    description: "開発ログAI",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-vmrkwkrrbvns4of6o5nbgb.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-7-20",
+  },
 ];
 
 
@@ -4400,6 +4413,15 @@ const POSTS = [
     date: "2026-7-19", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n96438c30229a",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-201",
+    title: "開発者ログAIを公開しました",
+    // 公開した日
+    date: "2026-7-20", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nb68a991105ba?app_launch=false",
     tags: ["DevLog"],
   },
 ];
