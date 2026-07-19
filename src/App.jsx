@@ -2587,6 +2587,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-7-18",
   },
+      {
+    id: "app-200",
+    name: "LuNova Developer OS",
+    tagline: "LuNova Developer OS",
+    description: "LuNova Developer OS",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-mbk65w2hvthmlpcwmpxthx.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-7-19",
+  },
 ];
 
 
@@ -4378,6 +4391,15 @@ const POSTS = [
     date: "2026-7-18", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n34e95d321ec8?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-200",
+    title: "LuNova Developer OSを公開しました",
+    // 公開した日
+    date: "2026-7-19", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n96438c30229a",
     tags: ["DevLog"],
   },
 ];
