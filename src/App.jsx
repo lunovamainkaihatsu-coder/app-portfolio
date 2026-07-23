@@ -2652,6 +2652,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-7-23",
   },
+      {
+    id: "app-205",
+    name: "プレゼント管理",
+    tagline: "プレゼント管理",
+    description: "プレゼント管理",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-a5ccwvj25csuifxiiu3f6f.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-7-24",
+  },
 ];
 
 
@@ -4488,6 +4501,15 @@ const POSTS = [
     date: "2026-7-23", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n151a46de6a21?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-205",
+    title: "プレゼント管理を公開しました",
+    // 公開した日
+    date: "2026-7-24", 
+    // ↓ここを記事のURLに変える
+    url: "",
     tags: ["DevLog"],
   },
 ];
