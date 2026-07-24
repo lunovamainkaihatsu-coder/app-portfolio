@@ -2665,6 +2665,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-7-24",
   },
+      {
+    id: "app-206",
+    name: "返却期限メモ",
+    tagline: "返却期限メモ",
+    description: "返却期限メモ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-lya48tkppcqkdbq9yzh7ve.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-7-25",
+  },
 ];
 
 
@@ -4510,6 +4523,15 @@ const POSTS = [
     date: "2026-7-24", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nfd016eeabbc6?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-206",
+    title: "返却期限メモを公開しました",
+    // 公開した日
+    date: "2026-7-25", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n513a031a0aff",
     tags: ["DevLog"],
   },
 ];
