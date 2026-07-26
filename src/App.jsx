@@ -2691,6 +2691,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-7-26",
   },
+      {
+    id: "app-208",
+    name: "最安値メモ",
+    tagline: "最安値メモ",
+    description: "最安値メモ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-g3pvczuct2zzmamwfusnry.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-7-27",
+  },
 ];
 
 
@@ -4554,6 +4567,15 @@ const POSTS = [
     date: "2026-7-26", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n7b58106f3cc0?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-208",
+    title: "最安値メモを公開しました",
+    // 公開した日
+    date: "2026-7-27", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nae39a57a8a1b?app_launch=false",
     tags: ["DevLog"],
   },
 ];
