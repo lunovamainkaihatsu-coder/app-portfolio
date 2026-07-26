@@ -2678,6 +2678,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-7-25",
   },
+      {
+    id: "app-207",
+    name: "給油・燃費記録",
+    tagline: "給油・燃費記録",
+    description: "給油・燃費記録",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-amppkhntqvhbfx8bwrxkhy.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-7-26",
+  },
 ];
 
 
@@ -4532,6 +4545,15 @@ const POSTS = [
     date: "2026-7-25", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n513a031a0aff",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-207",
+    title: "給油・燃費記録を公開しました",
+    // 公開した日
+    date: "2026-7-26", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n7b58106f3cc0?app_launch=false",
     tags: ["DevLog"],
   },
 ];
