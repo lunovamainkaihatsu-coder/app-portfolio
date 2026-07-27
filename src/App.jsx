@@ -2704,6 +2704,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-7-27",
   },
+      {
+    id: "app-209",
+    name: "おでかけ持ち物リスト",
+    tagline: "おでかけ持ち物リスト",
+    description: "おでかけ持ち物リスト",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-uka7jpptnkhtrvdz5nyznp.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-7-28",
+  },
 ];
 
 
@@ -4576,6 +4589,15 @@ const POSTS = [
     date: "2026-7-27", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nae39a57a8a1b?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-209",
+    title: "おでかけ持ち物リストを公開しました",
+    // 公開した日
+    date: "2026-7-28", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n3160ee738190?app_launch=false",
     tags: ["DevLog"],
   },
 ];
