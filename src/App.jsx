@@ -2717,6 +2717,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-7-28",
   },
+      {
+    id: "app-210",
+    name: "やりたいこと100リスト",
+    tagline: "やりたいこと100リスト",
+    description: "やりたいこと100リスト",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-kcxwregbqwacwaxetzm7pq.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-7-29",
+  },
 ];
 
 
@@ -4598,6 +4611,15 @@ const POSTS = [
     date: "2026-7-28", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n3160ee738190?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-210",
+    title: "やりたいこと100リストを公開しました",
+    // 公開した日
+    date: "2026-7-29", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n39274dfa7439?app_launch=false",
     tags: ["DevLog"],
   },
 ];
