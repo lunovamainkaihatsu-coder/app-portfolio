@@ -2743,6 +2743,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-7-30",
   },
+      {
+    id: "app-212",
+    name: "AI決断メモ",
+    tagline: "AI決断メモ",
+    description: "AI決断メモ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-be8mdnycappfqnepi5vy8fj.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-7-31",
+  },
 ];
 
 
@@ -4642,6 +4655,15 @@ const POSTS = [
     date: "2026-7-30", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nd47d9e6942d4?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-212",
+    title: "AI決断メモを公開しました",
+    // 公開した日
+    date: "2026-7-31", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n18ee54ccfc04?app_launch=false",
     tags: ["DevLog"],
   },
 ];
