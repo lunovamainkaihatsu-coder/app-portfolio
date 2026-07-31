@@ -2756,6 +2756,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-7-31",
   },
+      {
+    id: "app-213",
+    name: "積読・読書管理",
+    tagline: "積読・読書管理",
+    description: "積読・読書管理",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-6ynxvbvmk2fyamqj6s3cjv.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-8-1",
+  },
 ];
 
 
@@ -4664,6 +4677,15 @@ const POSTS = [
     date: "2026-7-31", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n18ee54ccfc04?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-213",
+    title: "積読・読書管理を公開しました",
+    // 公開した日
+    date: "2026-8-1", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nd1c8c40de2db?app_launch=false",
     tags: ["DevLog"],
   },
 ];
