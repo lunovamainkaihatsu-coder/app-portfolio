@@ -2769,6 +2769,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-8-1",
   },
+      {
+    id: "app-214",
+    name: "学び実践トラッカー",
+    tagline: "学び実践トラッカー",
+    description: "学び実践トラッカー",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-doq6ubrbsqisvxck9ngdvb.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-8-2",
+  },
 ];
 
 
@@ -4686,6 +4699,15 @@ const POSTS = [
     date: "2026-8-1", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nd1c8c40de2db?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-214",
+    title: "学び実践トラッカーを公開しました",
+    // 公開した日
+    date: "2026-8-2", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n021b4273e1b8?app_launch=false",
     tags: ["DevLog"],
   },
 ];
