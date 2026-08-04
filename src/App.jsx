@@ -2808,6 +2808,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-8-4",
   },
+      {
+    id: "app-217",
+    name: "カウントダウン管理",
+    tagline: "カウントダウン管理",
+    description: "カウントダウン管理",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-j48zsyoctsa9pp7adkv4k9.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-8-5",
+  },
 ];
 
 
@@ -4752,6 +4765,15 @@ const POSTS = [
     date: "2026-8-4", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nfb27703258fc?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-217",
+    title: "カウントダウン管理アプリを公開しました",
+    // 公開した日
+    date: "2026-8-5", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n2dc9d3d84f20?app_launch=false",
     tags: ["DevLog"],
   },
 ];
