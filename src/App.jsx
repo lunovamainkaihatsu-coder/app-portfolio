@@ -2847,6 +2847,45 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-8-7",
   },
+      {
+    id: "app-220",
+    name: "給油・燃費記録",
+    tagline: "給油・燃費記録",
+    description: "給油・燃費記録",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-2daeiznvp2v8mjxmd8nshk.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-8-8",
+  },
+      {
+    id: "app-221",
+    name: "AI決断メモ",
+    tagline: "AI決断メモ",
+    description: "AI決断メモ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-8np3sbgqdgfrythnkjkcmm.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-8-9",
+  },
+      {
+    id: "app-222",
+    name: "買わなかった貯金",
+    tagline: "買わなかった貯金",
+    description: "買わなかった貯金",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-3retczmsqs59b6wfiy8vxq.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-8-11",
+  },
 ];
 
 
@@ -4818,6 +4857,33 @@ const POSTS = [
     date: "2026-8-7", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/ne720ecb64988?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-220",
+    title: "給油・燃費記録を公開しました",
+    // 公開した日
+    date: "2026-8-8", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n1cad60d0bd94?app_launch=false",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-221",
+    title: "AI決断メモを公開しました",
+    // 公開した日
+    date: "2026-8-9", 
+    // ↓ここを記事のURLに変える
+    url: "",
+    tags: ["DevLog"],
+  },
+    {
+    id: "note-222",
+    title: "買わなかった貯金を公開しました",
+    // 公開した日
+    date: "2026-8-10", 
+    // ↓ここを記事のURLに変える
+    url: "",
     tags: ["DevLog"],
   },
 ];
