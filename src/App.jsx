@@ -2925,6 +2925,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-8-13",
   },
+      {
+    id: "app-226",
+    name: " 買ってよかった物ログ",
+    tagline: " 買ってよかった物ログ",
+    description: " 買ってよかった物ログ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-2chownuvaw9rc223ebvwxe.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-8-13",
+  },
 ];
 
 
@@ -4950,6 +4963,15 @@ const POSTS = [
     date: "2026-8-13", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n0ca05155363c?app_launch=false",
+    tags: ["DevLog"],
+  },
+      {
+    id: "note-226",
+    title: "買ってよかった物ログを公開しました",
+    // 公開した日
+    date: "2026-8-14", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n548434c6dd5e?app_launch=false",
     tags: ["DevLog"],
   },
 ];
