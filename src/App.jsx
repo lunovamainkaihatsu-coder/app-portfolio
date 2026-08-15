@@ -2951,6 +2951,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-8-14",
   },
+      {
+    id: "app-228",
+    name: "  やめたい習慣カウンター",
+    tagline: "  やめたい習慣カウンター",
+    description: "  やめたい習慣カウンター",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitigohan-f6ekdevuu2bxckufqgo4f9.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-8-16",
+  },
 ];
 
 
@@ -4994,6 +5007,15 @@ const POSTS = [
     date: "2026-8-15", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nbf9f4f592661?app_launch=false",
+    tags: ["DevLog"],
+  },
+      {
+    id: "note-228",
+    title: "やめたい習慣カウンターを公開しました",
+    // 公開した日
+    date: "2026-8-16", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nb8140773f1b8?app_launch=false",
     tags: ["DevLog"],
   },
 ];
