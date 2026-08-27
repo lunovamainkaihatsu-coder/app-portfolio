@@ -3107,6 +3107,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-8-27",
   },
+      {
+    id: "app-240",
+    name: " 5分だけやる！",
+    tagline: " 5分だけやる！",
+    description: "  5分だけやる！",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-svvwccqwcvjs8ivdpgit7s.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-8-28",
+  },
 ];
 
 
@@ -5258,6 +5271,15 @@ const POSTS = [
     date: "2026-8-27", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/ncdb9a083897e?app_launch=false",
+    tags: ["DevLog"],
+  },
+      {
+    id: "note-240",
+    title: "5分だけやる！を公開しました",
+    // 公開した日
+    date: "2026-8-28", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n2987598c963c?app_launch=false",
     tags: ["DevLog"],
   },
 ];
