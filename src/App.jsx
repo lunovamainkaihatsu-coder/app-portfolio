@@ -5367,7 +5367,7 @@ const POSTS = [
     // 公開した日
     date: "2026-9-1", 
     // ↓ここを記事のURLに変える
-    url: "",
+    url: "https://note.com/lunova_create/n/nb1802339423f?app_launch=false",
     tags: ["DevLog"],
   },
 ];
