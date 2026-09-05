@@ -3211,6 +3211,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-9-4",
   },
+      {
+    id: "app-248",
+    name: "今日ひとつ捨てる",
+    tagline: "今日ひとつ捨てる",
+    description: "今日ひとつ捨てる",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-tjeadwfyxf2sfufrckiwps.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-9-5",
+  },
 ];
 
 
@@ -5434,6 +5447,15 @@ const POSTS = [
     date: "2026-9-4", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/notes/na25b8835daff/landing",
+    tags: ["DevLog"],
+  },
+      {
+    id: "note-248",
+    title: "今日ひとつ捨てるを公開しました",
+    // 公開した日
+    date: "2026-9-5", 
+    // ↓ここを記事のURLに変える
+    url: "",
     tags: ["DevLog"],
   },
 ];
