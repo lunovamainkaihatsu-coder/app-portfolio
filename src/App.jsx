@@ -3237,6 +3237,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-9-6",
   },
+      {
+    id: "app-250",
+    name: "できたこと図鑑",
+    tagline: "できたこと図鑑",
+    description: "できたこと図鑑",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-bq9lgv5vpmqk3gcyzqf9q6.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-9-7",
+  },
 ];
 
 
@@ -5478,6 +5491,15 @@ const POSTS = [
     date: "2026-9-6", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nc2f39472f597?app_launch=false",
+    tags: ["DevLog"],
+  },
+      {
+    id: "note-250",
+    title: "できたこと図鑑を公開しました",
+    // 公開した日
+    date: "2026-9-7", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n109785f8fb93?app_launch=false",
     tags: ["DevLog"],
   },
 ];
