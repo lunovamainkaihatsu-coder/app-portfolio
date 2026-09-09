@@ -3276,6 +3276,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-9-9",
   },
+      {
+    id: "app-253",
+    name: "これ、いつまで",
+    tagline: "これ、いつまで",
+    description: "これ、いつまで",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-ymdbbadrmfpplxl3frb5hp.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-9-10",
+  },
 ];
 
 
@@ -5544,6 +5557,15 @@ const POSTS = [
     date: "2026-9-9", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n85d087da2456?app_launch=false",
+    tags: ["DevLog"],
+  },
+      {
+    id: "note-253",
+    title: "これ、いつまで？を公開しました",
+    // 公開した日
+    date: "2026-9-10", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n70c425311545?app_launch=false",
     tags: ["DevLog"],
   },
 ];
