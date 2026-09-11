@@ -3302,6 +3302,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-9-11",
   },
+      {
+    id: "app-255",
+    name: "迷ったらルーレット",
+    tagline: "迷ったらルーレット",
+    description: "迷ったらルーレット",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-3rawhcul5zt7zhx9t3ipu6.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-9-12",
+  },
 ];
 
 
@@ -5588,6 +5601,15 @@ const POSTS = [
     date: "2026-9-11", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n9e0ddd47a6b9?app_launch=false",
+    tags: ["DevLog"],
+  },
+      {
+    id: "note-255",
+    title: "迷ったらルーレットを公開しました",
+    // 公開した日
+    date: "2026-9-12", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n5ad403359a04?app_launch=false",
     tags: ["DevLog"],
   },
 ];
