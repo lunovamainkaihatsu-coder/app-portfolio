@@ -3315,6 +3315,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-9-12",
   },
+      {
+    id: "app-256",
+    name: "忘れたくない一言",
+    tagline: "忘れたくない一言",
+    description: "忘れたくない一言",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-gfpwqxuzpr3ferjs36uh2j.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-9-13",
+  },
 ];
 
 
@@ -5610,6 +5623,15 @@ const POSTS = [
     date: "2026-9-12", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n5ad403359a04?app_launch=false",
+    tags: ["DevLog"],
+  },
+      {
+    id: "note-256",
+    title: "忘れたくない一言を公開しました",
+    // 公開した日
+    date: "2026-9-13", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n377bbcf8b3a3?app_launch=false",
     tags: ["DevLog"],
   },
 ];
