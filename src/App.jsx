@@ -3328,6 +3328,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-9-13",
   },
+      {
+    id: "app-257",
+    name: "今の集中度",
+    tagline: "今の集中度",
+    description: "今の集中度",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-dcwkoccvazupj7ubckupcu.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-9-14",
+  },
 ];
 
 
@@ -5632,6 +5645,15 @@ const POSTS = [
     date: "2026-9-13", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n377bbcf8b3a3?app_launch=false",
+    tags: ["DevLog"],
+  },
+      {
+    id: "note-257",
+    title: "今の集中力を公開しました",
+    // 公開した日
+    date: "2026-9-14", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n68726993cc73?app_launch=false",
     tags: ["DevLog"],
   },
 ];
