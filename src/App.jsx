@@ -3341,6 +3341,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-9-14",
   },
+      {
+    id: "app-258",
+    name: "エナジーメーター",
+    tagline: "エナジーメーター",
+    description: "エナジーメーター",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-7tuz94mkttlf5tzizjk9jx.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-9-15",
+  },
 ];
 
 
@@ -5654,6 +5667,15 @@ const POSTS = [
     date: "2026-9-14", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n68726993cc73?app_launch=false",
+    tags: ["DevLog"],
+  },
+      {
+    id: "note-258",
+    title: "エナジーメーターを公開しました",
+    // 公開した日
+    date: "2026-9-15", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n2e442bed9f80?app_launch=false",
     tags: ["DevLog"],
   },
 ];
