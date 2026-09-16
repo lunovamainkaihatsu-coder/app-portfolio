@@ -3367,6 +3367,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-9-16",
   },
+      {
+    id: "app-260",
+    name: "今月の自分ダッシュボード",
+    tagline: "今月の自分ダッシュボード",
+    description: "今月の自分ダッシュボード",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-n6darw4zey9jgjg9gdyf8n.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-9-17",
+  },
 ];
 
 
@@ -5698,6 +5711,15 @@ const POSTS = [
     date: "2026-9-16", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n379165e99820?app_launch=false",
+    tags: ["DevLog"],
+  },
+      {
+    id: "note-260",
+    title: "今月の自分ダッシュボードを公開しました",
+    // 公開した日
+    date: "2026-9-17", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/ne93c917c9381?app_launch=false",
     tags: ["DevLog"],
   },
 ];
