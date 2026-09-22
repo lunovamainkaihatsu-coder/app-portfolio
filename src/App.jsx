@@ -3445,6 +3445,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-9-22",
   },
+      {
+    id: "app-266",
+    name: "やる気ゼロモード",
+    tagline: "やる気ゼロモード",
+    description: "やる気ゼロモード",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-pdldjwnvgttlx96vfmzggl.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-9-23",
+  },
 ];
 
 
@@ -5830,6 +5843,15 @@ const POSTS = [
     date: "2026-9-22", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n4ac953b6201f?app_launch=false",
+    tags: ["DevLog"],
+  },
+      {
+    id: "note-266",
+    title: "やる気ゼロモードを公開しました",
+    // 公開した日
+    date: "2026-9-23", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n3e1c3e979550?app_launch=false",
     tags: ["DevLog"],
   },
 ];
