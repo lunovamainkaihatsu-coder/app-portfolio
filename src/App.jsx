@@ -3471,6 +3471,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-9-24",
   },
+      {
+    id: "app-268",
+    name: "1日1チャレンジ",
+    tagline: "1日1チャレンジ",
+    description: "1日1チャレンジ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-upyquvecrncsgbtadpw5xw.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-9-25",
+  },
 ];
 
 
@@ -5874,6 +5887,15 @@ const POSTS = [
     date: "2026-9-24", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/ncdd2c54e10f2?app_launch=false",
+    tags: ["DevLog"],
+  },
+      {
+    id: "note-268",
+    title: "1日1チャレンジを公開しました",
+    // 公開した日
+    date: "2026-9-25", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n31d106c68ec9?app_launch=false",
     tags: ["DevLog"],
   },
 ];
