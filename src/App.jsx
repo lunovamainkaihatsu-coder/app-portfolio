@@ -3484,6 +3484,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-9-25",
   },
+      {
+    id: "app-269",
+    name: "頭の中ぜんぶ出す",
+    tagline: "頭の中ぜんぶ出す",
+    description: "頭の中ぜんぶ出す",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-crermxfkrpyxprdwxncngy.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-9-26",
+  },
 ];
 
 
@@ -5896,6 +5909,15 @@ const POSTS = [
     date: "2026-9-25", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n31d106c68ec9?app_launch=false",
+    tags: ["DevLog"],
+  },
+      {
+    id: "note-269",
+    title: "頭の中ぜんぶ出すを公開しました",
+    // 公開した日
+    date: "2026-9-26", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n12c05de207d8?app_launch=false",
     tags: ["DevLog"],
   },
 ];
