@@ -3536,6 +3536,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-9-29",
   },
+      {
+    id: "app-273",
+    name: "あとで調べる箱",
+    tagline: "あとで調べる箱",
+    description: "あとで調べる箱",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-je675frbcmaeonxtquskjf.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-9-30",
+  },
 ];
 
 
@@ -5978,12 +5991,21 @@ const POSTS = [
     tags: ["DevLog"],
   },
       {
-    id: "note-271",
+    id: "note-272",
     title: "あれどこ置いた？を公開しました",
     // 公開した日
     date: "2026-9-29", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n220f140aa100",
+    tags: ["DevLog"],
+  },
+      {
+    id: "note-273",
+    title: "あとで調べる箱を公開しました",
+    // 公開した日
+    date: "2026-9-30", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/na10d2f881ea4?app_launch=false",
     tags: ["DevLog"],
   },
 ];
