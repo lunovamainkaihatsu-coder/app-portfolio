@@ -3614,6 +3614,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-10-5",
   },
+      {
+    id: "app-279",
+    name: "これ、誰に聞く？",
+    tagline: "これ、誰に聞く？",
+    description: "誰",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-dc8tjwp8srzebvrvr68rsc.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-10-6",
+  },
 ];
 
 
@@ -6116,6 +6129,15 @@ const POSTS = [
     date: "2026-10-5", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n3ea760fe82dc?app_launch=false",
+    tags: ["DevLog"],
+  },
+      {
+    id: "note-279",
+    title: "これ、誰に聞く？を公開しました",
+    // 公開した日
+    date: "2026-10-6", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n3134777eaca8?app_launch=false",
     tags: ["DevLog"],
   },
 ];
