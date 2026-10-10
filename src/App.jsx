@@ -3679,6 +3679,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-10-10",
   },
+      {
+    id: "app-284",
+    name: "今の自分に必要なのは？",
+    tagline: "今の自分に必要なのは？",
+    description: "今の自分に必要なのは？",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-9mnbdl3f5hbez6xwcjviaa.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-10-11",
+  },
 ];
 
 
@@ -6226,6 +6239,15 @@ const POSTS = [
     date: "2026-10-10", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nf77b255523a1?app_launch=false",
+    tags: ["DevLog"],
+  },
+      {
+    id: "note-284",
+    title: "今の自分に必要なのは？を公開しました",
+    // 公開した日
+    date: "2026-10-11", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n956184deb5db?app_launch=false",
     tags: ["DevLog"],
   },
 ];
