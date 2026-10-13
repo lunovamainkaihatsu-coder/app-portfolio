@@ -3705,6 +3705,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-10-12",
   },
+      {
+    id: "app-286",
+    name: "",
+    tagline: "",
+    description: "",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-tjqnj53q2sfre9xuxrdequ.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-10-13",
+  },
 ];
 
 
