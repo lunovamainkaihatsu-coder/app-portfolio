@@ -3731,6 +3731,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-10-14",
   },
+      {
+    id: "app-288",
+    name: "今日は何に時間使った？",
+    tagline: "今日は何に時間使った？",
+    description: "今日は何に時間使った？",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-fejeduiravmv3sdnabf8kd.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-10-15",
+  },
 ];
 
 
@@ -6305,6 +6318,15 @@ const POSTS = [
     date: "2026-10-14", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/na71fe989ffe7?app_launch=false",
+    tags: ["DevLog"],
+  },
+      {
+    id: "note-288",
+    title: "今日は何に時間使った？を公開しました",
+    // 公開した日
+    date: "2026-10-15", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n3cb0bf4f2c9d?app_launch=false",
     tags: ["DevLog"],
   },
 ];
