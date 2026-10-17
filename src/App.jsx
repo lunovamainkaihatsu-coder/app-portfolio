@@ -3757,6 +3757,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-10-16",
   },
+      {
+    id: "app-290",
+    name: " これ、買う？やめる？ ",
+    tagline: " これ、買う？やめる？ ",
+    description: " これ、買う？やめる？ ",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-czfmpkewwryzmajzz8yabk.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-10-17",
+  },
 ];
 
 
@@ -6349,6 +6362,15 @@ const POSTS = [
     date: "2026-10-16", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/n8b9425793d08?app_launch=false",
+    tags: ["DevLog"],
+  },
+      {
+    id: "note-290",
+    title: "  これ、買う？やめる？を公開しました",
+    // 公開した日
+    date: "2026-10-17", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/n76ea22c374a6?app_launch=false",
     tags: ["DevLog"],
   },
 ];
