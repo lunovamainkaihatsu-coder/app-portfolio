@@ -3809,6 +3809,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-10-21",
   },
+      {
+    id: "app-295",
+    name: "未来の自分に預ける ",
+    tagline: " 未来 ",
+    description: " 預ける",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-sgg8zw8caggqg8vqqfkliw.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-10-22",
+  },
 ];
 
 
@@ -6437,6 +6450,15 @@ const POSTS = [
     date: "2026-10-21", 
     // ↓ここを記事のURLに変える
     url: "https://note.com/lunova_create/n/nfd54ee308dce?app_launch=false",
+    tags: ["DevLog"],
+  },
+      {
+    id: "note-295",
+    title: " 未来の自分に預けるを公開しました",
+    // 公開した日
+    date: "2026-10-22", 
+    // ↓ここを記事のURLに変える
+    url: "https://note.com/lunova_create/n/nc23c3a06b84a?app_launch=false",
     tags: ["DevLog"],
   },
 ];
