@@ -3822,6 +3822,19 @@ const APPS = [
     // 今日の日付などに更新
     updatedAt: "2026-10-22",
   },
+      {
+    id: "app-296",
+    name: "これ、何回目？",
+    tagline: " これ、何回目？ ",
+    description: "これ、何回目？",
+    // ↓ここを、ご主人のアプリのURLに差し替えてね
+    url: "https://mainitiapp-8mqexshime7y9o9zcidpby.streamlit.app/",
+    repo: "",
+    tags: ["Web"],
+    status: "公開中",
+    // 今日の日付などに更新
+    updatedAt: "2026-10-23",
+  },
 ];
 
 
